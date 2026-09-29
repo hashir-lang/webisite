@@ -4,7 +4,7 @@ import PartnersMarquee from "@/components/sections/PartnersMarquee";
 import Eyebrow from "@/components/editorial/Eyebrow";
 import { ArrowUpRight } from "lucide-react";
 import Seo from "@/seo/Seo";
-import { PAGE_META } from "@/seo/siteMeta";
+import { PAGE_META, SITE_URL } from "@/seo/siteMeta";
 import { partnersBySlug, partnerHref } from "@/data/partners";
 import { useContent } from "@/cms/useContent";
 import eie     from "@/assets/partner-eie-exact.jpg";
@@ -23,7 +23,9 @@ const PARTNERS = [
     name: "eie European Business School",
     place: "St Julian's, Malta",
     tagline: "European Institute of Executives",
-    desc: "A European business school delivering professionally-focused bachelor's, master's and MBA programmes designed around the skills employers demand.",
+    desc: "A European business school delivering professionally-focused bachelor's, master's and MBA programmes designed around the skills employers demand. Regulated by Malta's National Commission for Further and Higher Education (NCFHE) and operating across Europe, eie programmes are recognised under the Bologna Process throughout the European Union. More than 2,000 graduates hold eie qualifications and are working across 25+ countries.",
+    verifyLabel: "Verify on NCFHE Malta register",
+    verifyHref: "https://ncfhe.gov.mt/",
     logoClass: "max-h-16",
   },
   {
@@ -32,7 +34,9 @@ const PARTNERS = [
     name: "PPA Business School",
     place: "Paris, France",
     tagline: "La Grande École en Alternance",
-    desc: "A Paris-based grande école offering work-integrated bachelor and master programmes across business, marketing and management.",
+    desc: "A Paris-based grande école offering work-integrated bachelor and master programmes across business, marketing and management. PPA Business School holds CEFDG recognition from the French Ministry of Higher Education, and its degrees are recognised across Europe under the Bologna Agreement. With campuses across France, PPA alumni hold leadership roles in organisations across 30+ countries.",
+    verifyLabel: "Verify on CEFDG register",
+    verifyHref: "https://www.cefdg.fr/",
     logoClass: "max-h-20",
   },
   {
@@ -41,7 +45,9 @@ const PARTNERS = [
     name: "Walsh College",
     place: "Michigan, United States",
     tagline: "Business-focused higher education",
-    desc: "A US institution offering accredited business, technology and accounting degrees with a strong emphasis on applied learning and career outcomes.",
+    desc: "A US institution offering accredited business, technology and accounting degrees with a strong emphasis on applied learning and career outcomes. Walsh College holds dual accreditation from the Higher Learning Commission (HLC) — a regional accreditor recognised by the US Department of Education since 1922 — and ACBSP, the global standard for business education quality. Walsh credentials are recognised by employers and professional bodies across North America, Europe, and the Gulf region.",
+    verifyLabel: "Verify on HLC directory",
+    verifyHref: "https://www.hlcommission.org/directory/",
     logoClass: "max-h-14",
   },
   {
@@ -50,10 +56,29 @@ const PARTNERS = [
     name: "Qualifi",
     place: "Ofqual-regulated, UK",
     tagline: "UK awarding organisation",
-    desc: "A UK awarding organisation regulated by Ofqual, offering Level 3-7 diplomas used as pathways to full undergraduate and postgraduate degrees.",
+    desc: "A UK awarding organisation regulated by Ofqual (the Office of Qualifications and Examinations Regulation), listed on the Regulated Qualifications Framework (RQF). Qualifi Level 3–7 diplomas serve as direct entry pathways to full undergraduate and postgraduate degrees at universities across the UK and internationally. More than 40,000 learners in over 50 countries hold Qualifi qualifications, making it one of the most widely recognised UK awarding bodies globally.",
+    verifyLabel: "Verify on Ofqual public register",
+    verifyHref: "https://register.ofqual.gov.uk/",
     logoClass: "max-h-16",
   },
 ];
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Accreditation & University Partners",
+  url: `${SITE_URL}/accreditation-and-partners`,
+  author: {
+    "@type": "Organization",
+    name: "UeCampus",
+    url: SITE_URL,
+  },
+  dateModified: "2025-09-01",
+  reviewedBy: {
+    "@type": "Organization",
+    name: "UeCampus Accreditation Team",
+  },
+};
 
 const Partners = () => {
   const c = useContent("partners");
@@ -64,6 +89,7 @@ const Partners = () => {
         description={PAGE_META.partners.description}
         keywords={PAGE_META.partners.keywords}
         canonicalPath={PAGE_META.partners.path}
+        schema={webPageSchema}
       />
       {/* HERO */}
       <section className="bg-paper pt-10 md:pt-14 pb-20 md:pb-28 border-b border-rule">
@@ -175,6 +201,15 @@ const Partners = () => {
                 <p className="mt-5 text-[15px] leading-relaxed text-ink-soft max-w-[58ch]">
                   {p.desc}
                 </p>
+                <a
+                  href={p.verifyHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-1.5 text-[13px] text-plum hover:underline"
+                >
+                  {p.verifyLabel}
+                  <ArrowUpRight className="h-3.5 w-3.5" />
+                </a>
               </div>
               <div className="md:col-span-3 flex md:justify-end items-start">
                 {c.profiles.viewLink && (
@@ -186,6 +221,23 @@ const Partners = () => {
               </div>
             </article>
           ))}
+        </div>
+
+        {/* Author / verification block */}
+        <div className="container-wide mt-16 pt-10 border-t border-rule">
+          <div className="author-block max-w-[60ch]">
+            <p className="text-[14px] text-ink-soft">
+              Verified by <strong>UeCampus Accreditation Team</strong> —{" "}
+              Last reviewed: September 2025
+            </p>
+            <Link
+              to="/contact-us"
+              className="mt-2 inline-flex items-center gap-1.5 text-[13px] text-plum hover:underline"
+            >
+              Contact our Partnerships Office
+              <ArrowUpRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
         </div>
       </section>
 
