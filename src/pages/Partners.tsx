@@ -25,6 +25,8 @@ const PARTNERS = [
     tagline: "European Institute of Executives",
     desc: "A European business school delivering professionally-focused bachelor's, master's and MBA programmes designed around the skills employers demand.",
     logoClass: "max-h-16",
+    logoW: 470,
+    logoH: 172,
   },
   {
     logo: ppa,
@@ -34,6 +36,8 @@ const PARTNERS = [
     tagline: "La Grande École en Alternance",
     desc: "A Paris-based grande école offering work-integrated bachelor and master programmes across business, marketing and management.",
     logoClass: "max-h-20",
+    logoW: 180,
+    logoH: 180,
   },
   {
     logo: walsh,
@@ -43,6 +47,8 @@ const PARTNERS = [
     tagline: "Business-focused higher education",
     desc: "A US institution offering accredited business, technology and accounting degrees with a strong emphasis on applied learning and career outcomes.",
     logoClass: "max-h-14",
+    logoW: 512,
+    logoH: 512,
   },
   {
     logo: qualifi,
@@ -52,6 +58,8 @@ const PARTNERS = [
     tagline: "UK awarding organisation",
     desc: "A UK awarding organisation regulated by Ofqual, offering Level 3-7 diplomas used as pathways to full undergraduate and postgraduate degrees.",
     logoClass: "max-h-16",
+    logoW: 768,
+    logoH: 224,
   },
 ];
 
@@ -151,7 +159,7 @@ const Partners = () => {
             <article key={p.name} className="reveal py-12 md:py-16 grid md:grid-cols-12 gap-8 md:gap-12 items-start" style={{ transitionDelay: `${i * 80}ms` }}>
               <div className="md:col-span-3 flex items-start gap-5">
                 <span className="font-mono text-[11px] tracking-[0.18em] uppercase text-ink-mute pt-2">
-                  {String(i + 1).padStart(2, "0")}
+                  {String(i + 1).padStart(2, "00")}
                 </span>
                 <Link
                   to={partnerHref(partnersBySlug[p.slug])}
@@ -163,6 +171,8 @@ const Partners = () => {
                     alt={c.profiles.logoAlt.replace("{name}", p.name)}
                     className={`${p.logoClass} w-auto object-contain`}
                     loading="lazy"
+                    width={p.logoW}
+                    height={p.logoH}
                   />
                 </Link>
               </div>

@@ -13,12 +13,12 @@ import eduqual from "@/assets/partner-eduqual-exact.png";
  * files and routes stay here. An item with an unknown id still shows its
  * caption (without a logo) and links to the partners overview.
  */
-const PARTNER_ASSETS: Record<string, { src: string; to: string }> = {
-  eie:     { src: eie,     to: "/program/european-business-school-eie" },
-  ppa:     { src: ppa,     to: "/partners/ppa-business-school" },
-  walsh:   { src: walsh,   to: "/partners/walsh-college" },
-  qualifi: { src: qualifi, to: "/partners/qualifi" },
-  eduqual: { src: eduqual, to: "/partners/eduqual" },
+const PARTNER_ASSETS: Record<string, { src: string; to: string; w: number; h: number }> = {
+  eie:     { src: eie,     to: "/program/european-business-school-eie", w: 470, h: 172 },
+  ppa:     { src: ppa,     to: "/partners/ppa-business-school",          w: 180, h: 180 },
+  walsh:   { src: walsh,   to: "/partners/walsh-college",                w: 512, h: 512 },
+  qualifi: { src: qualifi, to: "/partners/qualifi",                      w: 768, h: 224 },
+  eduqual: { src: eduqual, to: "/partners/eduqual",                      w: 174, h: 100 },
 };
 const PARTNERS_OVERVIEW = "/accreditation-and-partners";
 
@@ -67,6 +67,8 @@ const PartnersMarquee = () => {
                       src={asset.src}
                       alt={p.imageAlt}
                       loading="lazy"
+                      width={asset.w}
+                      height={asset.h}
                       className="max-h-full w-auto object-contain max-w-[200px] md:max-w-[240px] grayscale opacity-80 transition-smooth group-hover:grayscale-0 group-hover:opacity-100"
                     />
                   )}
