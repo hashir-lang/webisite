@@ -1,0 +1,70 @@
+# ============================================================================
+#  UeCampus — single Apache docroot serving the React build + the PHP backend.
+#  Vite copies this file into dist/ on `npm run build`, so the deployed site
+#  carries it automatically. Keep this file and dist/.htaccess in sync.
+#
+#  PLACE (after deploy) as ".htaccess" in the DOCUMENT ROOT — the folder the
+#  domain points at, the one that directly contains index.html, assets/ and
+#  programmes/. Make sure NO OTHER .htaccess above/around it still adds a
+#  "public/" prefix.
+#
+#  How it works:
+#   - Any legacy /public/... URL is stripped back to the clean URL (rule 1), so
+#     old shared links (WhatsApp, email) keep resolving.
+#   - Requests that map to a real file or directory are served as-is. This is
+#     what lets the PHP backend under /api (e.g. /api/admin/login.php) actually
+#     run, instead of being rewritten to the React app.
+#   - Every other path falls back to index.html so client-side routes such as
+#     /programmes/... keep working on refresh and on deep links.
+#
+#  If you deploy into a SUBFOLDER instead of the domain root, change RewriteBase
+#  below to match (e.g. "/ue-replica/") and set Vite's `base` to the same value.
+# ============================================================================
+
+# Never let the server auto-append a trailing slash. That DirectorySlash 301 is
+# what leaked "/public" into the URL bar and into shared links. MultiViews does
+# the same kind of implicit path rewriting, so disable it too.
+DirectorySlash Off
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1) Clean up any legacy link that still contains /public/ -> strip it (301).
+  #    e.g. /public/programmes/foo/  ->  /programmes/foo/
+  RewriteCond %{THE_REQUEST} \s/+public/([^\s?]*) [NC]
+  RewriteRule ^ /%1 [R=301,L,NE]
+
+  # 1a) The old React "Journal" page at /blogs is retired — there is now one
+  #     journal, the PHP-rendered one at /blog. Keep the indexed URL alive.
+  RewriteRule ^blogs/?$ /blog [R=301,L]
+
+  # 1b) BLOG — server-rendered by PHP for SEO (posts go live instantly, no
+  #     rebuild). Real files under /blog (index.php, admin.php, uploaded images)
+  #     are served directly; every other /blog or /blog/<slug> URL is handled by
+  #     the PHP blog router. This must run before the SPA fallback so blog URLs
+  #     are never rewritten to the React index.html.
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^blog/ - [L]
+  RewriteRule ^blog(?:/.*)?$ /blog/index.php [L,QSA]
+
+  # 2) Serve prerendered static HTML at the exact (canonical) URL, e.g. a request
+  #    for /about-us returns /about-us/index.html directly — no trailing-slash
+  #    redirect — so crawlers get the baked SEO markup and the URL matches the
+  #    <link rel="canonical">. Only fires when the prerendered file exists.
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^(.+?)/?$ $1/index.html [L]
+
+  # 3) Don't touch real files/directories — assets and the /api PHP backend.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # 4) Legacy /favicon.ico requests (browsers, Google crawler) -> PNG icon,
+  #    so the icon still resolves even if favicon.ico isn't on the server.
+  RewriteRule ^favicon\.ico$ /favicon.png [L]
+
+  # 5) Everything else -> the SPA entry point.
+  RewriteRule ^ index.html [L]
+</IfModule>

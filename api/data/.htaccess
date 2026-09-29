@@ -1,0 +1,2 @@
+# Block all direct web access to the raw enquiry database.
+Require all denied

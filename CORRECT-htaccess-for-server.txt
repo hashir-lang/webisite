@@ -1,0 +1,44 @@
+# ============================================================================
+#  UeCampus — SPA + prerendered pages, served at the site root (NO /public).
+#
+#  PLACE THIS as ".htaccess" in the DOCUMENT ROOT: the folder the domain
+#  points at — the one that directly contains index.html, assets/, programmes/.
+#  Replace whatever .htaccess is already there, and make sure NO OTHER
+#  .htaccess above/around it is still adding a "public/" prefix.
+#
+#  What it fixes:
+#   - Deep links work WITH OR WITHOUT a trailing slash (no 301 to /public).
+#   - Old already-shared /public/... links are redirected to the clean URL.
+# ============================================================================
+
+# Never let the server auto-append a slash (that redirect is what leaked
+# "/public" into shared links).
+DirectorySlash Off
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1) Clean up legacy links that still contain /public/ -> strip it (one 301).
+  #    e.g. /public/programmes/foo/  ->  /programmes/foo/
+  RewriteCond %{THE_REQUEST} \s/+public/([^\s?]*) [NC]
+  RewriteRule ^ /%1 [R=301,L,NE]
+
+  # 2) Serve the prerendered page DIRECTLY for the clean URL, whether or not
+  #    it ends in a slash. /programmes/foo  ->  /programmes/foo/index.html
+  #    Because we serve the file directly, no trailing-slash redirect happens.
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^(.+?)/?$ $1/index.html [L]
+
+  # 3) Real files and directories (assets, /api PHP backend) are served as-is.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # 4) Legacy /favicon.ico -> PNG icon.
+  RewriteRule ^favicon\.ico$ /favicon.png [L]
+
+  # 5) Everything else -> the SPA entry point (client-side routing).
+  RewriteRule ^ index.html [L]
+</IfModule>

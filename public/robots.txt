@@ -1,0 +1,20 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /thank-you
+Disallow: /blog/admin.php
+
+Sitemap: https://uecampus.com/sitemap.xml
+Sitemap: https://uecampus.com/blog/sitemap.xml

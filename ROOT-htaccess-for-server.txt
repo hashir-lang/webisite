@@ -1,0 +1,50 @@
+# ============================================================================
+#  Upload this as ".htaccess" into the domain's CURRENT document root — the
+#  folder that CONTAINS the "public" folder (i.e. the parent of public/).
+#
+#  It serves the site from inside public/ using INTERNAL rewrites, so the
+#  browser URL stays clean (no visible "/public/") and no 301 redirect fires.
+#  That keeps React Router working for deep links (WhatsApp, shared links).
+#
+#  PREFERRED alternative: just point the domain's Document Root at the
+#  "public" folder in your hosting panel and you don't need this file at all.
+# ============================================================================
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Kill the trailing-slash 301 that was leaking "/public/" into the URL bar.
+  DirectorySlash Off
+
+  # 0) Anything still linking to /public/... -> the clean URL (one 301), so old
+  #    shared links keep working and nothing indexes the /public form.
+  RewriteCond %{THE_REQUEST} \s/+public/([^\s?]*) [NC]
+  RewriteRule ^ /%1 [R=301,L,NE]
+
+  # Homepage -> the SPA entry inside public/.
+  RewriteRule ^$ public/index.html [L]
+
+  # BLOG — server-rendered by PHP, so it must be routed BEFORE the SPA
+  # fallback below or /blog/<slug> lands on the React app instead.
+  # Real files under public/blog (index.php, admin.php, uploaded images) are
+  # served as-is; every other /blog URL goes to the PHP router.
+  RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
+  RewriteRule ^(blog/.+)$ public/$1 [L]
+  RewriteRule ^blog(?:/.*)?$ public/blog/index.php [L,QSA]
+
+  # Serve prerendered static HTML at the clean URL:
+  #   /programmes/foo  ->  public/programmes/foo/index.html   (internal, no redirect)
+  # Only when that prerendered file actually exists.
+  RewriteCond %{DOCUMENT_ROOT}/public/$1/index.html -f
+  RewriteRule ^(.+?)/?$ public/$1/index.html [L]
+
+  # Serve real files/directories that live inside public/
+  # (JS/CSS/images and the /api PHP backend) as-is.
+  RewriteCond %{DOCUMENT_ROOT}/public/$1 -f [OR]
+  RewriteCond %{DOCUMENT_ROOT}/public/$1 -d
+  RewriteRule ^(.+)$ public/$1 [L]
+
+  # Everything else -> the SPA entry point inside public/.
+  RewriteRule ^ public/index.html [L]
+</IfModule>

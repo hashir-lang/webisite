@@ -1,0 +1,443 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ──────────────────────────────────────────────────────────────
+   UeCampus — Editorial design system.
+   Instrument Serif display, plum-warm neutrals, aubergine for
+   dark sections. Designed to feel premium and editorial without
+   tipping into magazine pastiche.
+   ────────────────────────────────────────────────────────────── */
+
+@layer base {
+  :root {
+    /* SURFACES ── light paper (the default for the whole site) */
+    --paper:        0 0% 100%;     /* primary background — white */
+    --paper-soft:   275 30% 97%;   /* very faint warm off-white */
+    --paper-deep:   275 14% 92%;   /* light grey for placeholders / dividers */
+    --bone:         30 28% 97%;    /* warm cream alt */
+    --rule:         272 16% 86%;   /* light hairline on white */
+    --rule-strong:  272 16% 70%;
+
+    /* INK ── default text colour for the prevailing background.
+       Defaults to DARK (for use on the white paper bg). Explicitly
+       dark sections override these locally — see below. */
+    --ink:          272 28% 12%;
+    --ink-soft:     272 20% 26%;
+    --ink-mute:     272 12% 46%;
+
+    /* BRAND ── aubergine to orchid */
+    --aubergine:    272 64% 14%;   /* near-black brand */
+    --plum:         272 62% 32%;   /* brighter primary plum */
+    --plum-glow:    278 60% 48%;
+    --orchid:       284 64% 56%;
+    --bloom:        292 70% 72%;
+
+    /* ACCENT ── one warm ember for sparing use */
+    --ember:        24 80% 56%;
+    --ember-soft:   24 70% 92%;
+
+    /* BRAND on paper — also dark, slightly tonal variants */
+    --plum-paper:   272 60% 15%;   /* alt dark purple section bg */
+    --plum-paper-2: 280 56% 18%;   /* cooler variant */
+    --plum-rule:    272 32% 38%;
+
+    /* ──────────────────────────────────────────────────────────
+       Legacy shadcn tokens — remapped onto the new palette so the
+       existing ecosystem of UI primitives (button, dialog, sheet,
+       etc.) inherits the editorial system without a rewrite.
+       ────────────────────────────────────────────────────────── */
+    --background: var(--paper);
+    --foreground: var(--ink);
+
+    --card:               0 0% 100%;
+    --card-foreground:    var(--ink);
+
+    --popover:            0 0% 100%;
+    --popover-foreground: var(--ink);
+
+    --primary:            272 62% 32%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow:       278 60% 48%;
+
+    --secondary:            272 32% 95%;
+    --secondary-foreground: 272 62% 28%;
+
+    --muted:            275 22% 92%;
+    --muted-foreground: 272 12% 44%;
+
+    --accent:            272 32% 95%;
+    --accent-foreground: 272 62% 28%;
+
+    --destructive:            0 70% 48%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: var(--rule);
+    --input:  var(--rule);
+    --ring:   272 62% 32%;
+
+    --radius: 0.5rem;
+
+    --section-dark:            var(--aubergine);
+    --section-dark-foreground: 0 0% 100%;
+
+    /* Gradients — restrained, used sparingly */
+    --gradient-primary:        linear-gradient(135deg, hsl(272 62% 32%), hsl(278 60% 44%));
+    --gradient-hero-overlay:   linear-gradient(180deg, hsl(272 64% 14% / 0.78), hsl(272 64% 8% / 0.92));
+    --gradient-card-purple:    linear-gradient(135deg, hsl(272 62% 32%), hsl(272 64% 14%));
+    --gradient-paper:          linear-gradient(180deg, hsl(275 38% 97%), hsl(275 30% 94%));
+    /* Vibrant hero purple — saturated violet gradient with depth */
+    --gradient-hero-purple:    radial-gradient(ellipse at 75% 30%, hsl(278 75% 42%) 0%, hsl(272 72% 28%) 45%, hsl(266 78% 16%) 90%);
+
+    /* Shadows — air, not lift */
+    --shadow-soft: 0 1px 0 hsl(var(--rule)), 0 10px 30px -20px hsl(272 64% 14% / 0.18);
+    --shadow-card: 0 1px 0 hsl(var(--rule)), 0 24px 60px -28px hsl(272 64% 14% / 0.24);
+    --shadow-pill: 0 1px 0 hsl(var(--rule)), 0 14px 28px -16px hsl(272 62% 32% / 0.40);
+
+    /* Motion */
+    --transition-smooth: all 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+    --transition-snap:   all 0.18s cubic-bezier(0.2, 0.7, 0.2, 1);
+
+    /* Sidebar (shadcn) */
+    --sidebar-background: var(--paper);
+    --sidebar-foreground: var(--ink-soft);
+    --sidebar-primary: var(--plum);
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: var(--plum-paper);
+    --sidebar-accent-foreground: var(--plum);
+    --sidebar-border: var(--rule);
+    --sidebar-ring: var(--plum);
+  }
+
+  .dark {
+    --background: 272 30% 6%;
+    --foreground: 0 0% 97%;
+    --card:       272 28% 10%;
+    --card-foreground: 0 0% 97%;
+    --popover:    272 28% 10%;
+    --popover-foreground: 0 0% 97%;
+    --primary:            276 65% 64%;
+    --primary-foreground: 272 60% 8%;
+    --secondary:            272 22% 16%;
+    --secondary-foreground: 0 0% 97%;
+    --muted:            272 22% 16%;
+    --muted-foreground: 220 10% 70%;
+    --accent:            272 22% 16%;
+    --accent-foreground: 0 0% 97%;
+    --border: 272 22% 18%;
+    --input:  272 22% 18%;
+    --ring:   276 65% 64%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+
+  /* Inside white cards (used within dark sections), keep --ink dark
+     so card text always reads correctly regardless of parent context. */
+  .bg-white,
+  .bg-card,
+  .bg-popover {
+    --ink:        272 28% 12%;
+    --ink-soft:   272 20% 26%;
+    --ink-mute:   272 12% 46%;
+    --rule:       272 16% 86%;
+    --foreground: 272 28% 12%;
+    --plum:       272 62% 32%;   /* keep accent dark inside white cards */
+  }
+
+  /* Inside explicitly-dark sections, flip --ink back to light so
+     headings, body, and rule colours still read against the dark bg.
+     Also brighten --plum so eyebrow / italic-serif / link-editorial
+     underlines / drop-caps remain visible — these all resolve to
+     hsl(var(--plum)) and would otherwise be near-invisible. */
+  .bg-aubergine,
+  .bg-plum,
+  .bg-plum-paper,
+  .bg-plum-paper-2,
+  .bg-section-dark,
+  .bg-hero-purple {
+    --ink:        0 0% 96%;
+    --ink-soft:   272 24% 80%;
+    --ink-mute:   272 18% 62%;
+    --rule:       272 34% 30%;
+    --foreground: 0 0% 96%;
+    --plum:       292 70% 76%;   /* bloom-bright for accent text on dark */
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+  }
+
+  /* Display headings — Manrope, modern geometric sans */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', system-ui, sans-serif;
+    @apply text-ink;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.05;
+  }
+
+  ::selection {
+    background: hsl(var(--plum) / 0.22);
+    color: hsl(var(--aubergine));
+  }
+
+  /* Focus ring — editorial restraint, not Material blue */
+  :focus-visible {
+    outline: 2px solid hsl(var(--plum));
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  /* ── Surfaces ────────────────────────────────────────────── */
+  .bg-paper        { background-color: hsl(var(--paper)); }
+  .bg-paper-soft   { background-color: hsl(var(--paper-soft)); }
+  .bg-paper-deep   { background-color: hsl(var(--paper-deep)); }
+  .bg-bone         { background-color: hsl(var(--bone)); }
+  .bg-aubergine    { background-color: hsl(var(--aubergine)); color: white; }
+  .bg-plum         { background-color: hsl(var(--plum)); color: white; }
+  .bg-plum-paper   { background-color: hsl(var(--plum-paper)); color: white; }
+  .bg-plum-paper-2 { background-color: hsl(var(--plum-paper-2)); color: white; }
+  .bg-ember-soft   { background-color: hsl(var(--ember-soft)); }
+
+  .bg-section-dark        { background-color: hsl(var(--aubergine)); color: white; }
+  .bg-gradient-primary    { background-image: var(--gradient-primary); }
+  .bg-gradient-card-purple{ background-image: var(--gradient-card-purple); }
+  .bg-gradient-paper      { background-image: var(--gradient-paper); }
+
+  /* Vibrant hero purple — saturated violet + faint grid overlay */
+  .bg-hero-purple {
+    background-color: hsl(272 72% 28%);
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+      var(--gradient-hero-purple);
+    background-size: 56px 56px, 56px 56px, 100% 100%;
+    color: white;
+  }
+
+  /* ── Ink (text) ──────────────────────────────────────────── */
+  .text-ink       { color: hsl(var(--ink)); }
+  .text-ink-soft  { color: hsl(var(--ink-soft)); }
+  .text-ink-mute  { color: hsl(var(--ink-mute)); }
+  .text-aubergine { color: hsl(var(--aubergine)); }
+  .text-plum      { color: hsl(var(--plum)); }
+  .text-plum-glow { color: hsl(var(--plum-glow)); }
+  .text-orchid    { color: hsl(var(--orchid)); }
+  .text-bloom     { color: hsl(var(--bloom)); }
+  .text-ember     { color: hsl(var(--ember)); }
+
+  /* ── Rules ──────────────────────────────────────────────── */
+  .border-rule        { border-color: hsl(var(--rule)); }
+  .border-rule-strong { border-color: hsl(var(--rule-strong)); }
+  .border-plum-rule   { border-color: hsl(var(--plum-rule)); }
+
+  /* ── Shadows ─────────────────────────────────────────────── */
+  .shadow-pill       { box-shadow: var(--shadow-pill); }
+  .shadow-card-soft  { box-shadow: var(--shadow-card); }
+  .shadow-air        { box-shadow: var(--shadow-soft); }
+
+  /* ── Transitions ─────────────────────────────────────────── */
+  .transition-smooth { transition: var(--transition-smooth); }
+  .transition-snap   { transition: var(--transition-snap); }
+
+  /* ── Editorial type helpers ─────────────────────────────── */
+  .font-serif   { font-family: 'Manrope', system-ui, sans-serif; font-weight: 600; }
+  .font-mono    { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+  .font-display { font-family: 'Manrope', system-ui, sans-serif; font-weight: 600; }
+
+  /* Accent treatment for highlighted words (was italic-serif).
+     Manrope has no italics, so we differentiate with weight + colour:
+     a lighter, plum-toned word inside a heading reads as the accent. */
+  .italic-serif {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: hsl(var(--plum));
+    letter-spacing: -0.03em;
+  }
+
+  /* Eyebrow — small, uppercase, mono — magazine kicker */
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: hsl(var(--plum));
+  }
+  .eyebrow-plum { color: hsl(var(--plum)); }
+  .eyebrow-mute { color: hsl(var(--ink-mute)); }
+
+  /* Section number markers — big sans digits, magazine pagination */
+  .marker-number {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 200;
+    color: hsl(var(--plum) / 0.6);
+    line-height: 0.85;
+    letter-spacing: -0.03em;
+    font-feature-settings: "lnum", "tnum";
+  }
+
+  /* Drop cap — leading paragraphs */
+  .drop-cap::first-letter {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 600;
+    color: hsl(var(--plum));
+    float: left;
+    font-size: 4em;
+    line-height: 0.85;
+    letter-spacing: -0.04em;
+    padding-right: 0.1em;
+    padding-top: 0.08em;
+  }
+
+  /* Hairline divider used in editorial layouts */
+  .rule-hair {
+    border: 0;
+    border-top: 1px solid hsl(var(--rule));
+  }
+  .rule-double {
+    border: 0;
+    border-top: 1px solid hsl(var(--rule));
+    box-shadow: 0 3px 0 -2px hsl(var(--rule));
+  }
+
+  /* Blog editor canvas (admin console). The contenteditable body is authored
+     here and rendered by blog/_core.php on the public page, so these styles
+     mirror .bl-body there closely enough to write against. */
+  .admin-rte h2 {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    color: hsl(var(--ink));
+    margin: 28px 0 10px;
+  }
+  .admin-rte h3 {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(var(--ink));
+    margin: 22px 0 8px;
+  }
+  .admin-rte p  { margin: 0 0 18px; }
+  .admin-rte ul, .admin-rte ol { margin: 0 0 18px; padding-left: 24px; }
+  .admin-rte ul { list-style: disc; }
+  .admin-rte ol { list-style: decimal; }
+  .admin-rte li { margin: 0 0 6px; }
+  .admin-rte a  { color: hsl(var(--plum)); text-decoration: underline; text-underline-offset: 3px; }
+  .admin-rte img { max-width: 100%; border-radius: 4px; margin: 16px 0; }
+  .admin-rte blockquote {
+    margin: 20px 0;
+    padding-left: 18px;
+    border-left: 3px solid hsl(var(--orchid));
+    font-style: italic;
+    color: hsl(var(--ink));
+  }
+  .admin-rte:empty::before {
+    content: 'Start writing…';
+    color: hsl(var(--ink-mute) / 0.6);
+  }
+
+  /* Container variants */
+  .container-prose { max-width: 68ch; margin-inline: auto; }
+  .container-wide  { max-width: 1440px; margin-inline: auto; padding-inline: 1.5rem; }
+  @media (min-width: 768px) {
+    .container-wide { padding-inline: 2.5rem; }
+  }
+
+  /* Numbered list — magazine "01 / 07" pagination feel */
+  .pagination-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: hsl(var(--ink-mute));
+  }
+
+  /* Subtle noise overlay for hero photos — adds editorial grain */
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity: 0.22;
+    mix-blend-mode: overlay;
+  }
+
+  /* Underline that grows on hover — editorial link */
+  .link-editorial {
+    background-image: linear-gradient(hsl(var(--plum)), hsl(var(--plum)));
+    background-position: 0 100%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    transition: background-size 0.4s cubic-bezier(0.2, 0.7, 0.2, 1);
+    padding-bottom: 1px;
+  }
+  .link-editorial:hover { background-size: 100% 2px; }
+
+  /* Reveal-on-scroll primitive — opt-in via class */
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.9s cubic-bezier(0.2, 0.7, 0.2, 1),
+                transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+
+  /* Marquee for partner logos */
+  .animate-marquee { animation: marquee 38s linear infinite; }
+
+  /* Keep accordion animations (shadcn primitives use them) */
+  .animate-accordion-down { animation: accordion-down 0.2s ease-out; }
+  .animate-accordion-up   { animation: accordion-up 0.2s ease-out; }
+
+  /* Fade-up (kept for legacy components) */
+  .animate-fade-up { animation: fade-up 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) forwards; }
+  .animate-fade-in { animation: fade-in 0.5s ease-out forwards; }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes accordion-down {
+  from { height: 0; }
+  to   { height: var(--radix-accordion-content-height); }
+}
+@keyframes accordion-up {
+  from { height: var(--radix-accordion-content-height); }
+  to   { height: 0; }
+}
+
+/* Custom selection on dark backgrounds */
+.bg-aubergine ::selection,
+.bg-section-dark ::selection {
+  background: hsl(var(--bloom) / 0.45);
+  color: white;
+}

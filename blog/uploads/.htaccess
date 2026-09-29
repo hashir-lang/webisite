@@ -1,0 +1,27 @@
+# Uploaded blog images are static assets only — never execute code from here.
+Options -Indexes
+
+# Block execution of any script type, whatever the server SAPI. This FilesMatch
+# is the primary guard and works on Apache, LiteSpeed and cPanel alike.
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|phps|pht|cgi|pl|asp|aspx|jsp|htaccess)$">
+    Require all denied
+</FilesMatch>
+
+# Belt-and-braces: also switch the PHP engine off, but only where mod_php is
+# actually loaded (php_flag would 500 under FastCGI/LiteSpeed otherwise).
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php5.c>
+    php_flag engine off
+</IfModule>
+
+# Serve images directly with long-lived caching.
+<IfModule mod_headers.c>
+    <FilesMatch "\.(jpg|jpeg|png|webp|gif|avif|svg)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>

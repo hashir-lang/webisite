@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UeCampus Chat Support</title>
+  <!-- Google Font Outfit for premium look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Chat Toggle Button -->
+  <button id="chat-toggle" aria-label="Open chat">
+    <span id="chat-badge" class="hidden">1</span>
+    <img id="chat-icon-open" src="https://www.uecampus.com/_next/image?url=%2Fassets%2Fuecampus-logo.png&w=256&q=75" alt="UeCampus" class="toggle-logo" />
+    <svg id="chat-icon-close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+      <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </button>
+
+  <!-- Chat Widget -->
+  <div id="chat-widget" class="hidden">
+    <!-- Chat Header -->
+    <div id="chat-header">
+      <div class="header-info">
+        <div class="header-avatar">
+          <img src="https://www.uecampus.com/_next/image?url=%2Fassets%2Fuecampus-logo.png&w=256&q=75" alt="UeCampus Logo" class="header-logo" />
+          <span class="online-indicator"></span>
+        </div>
+        <div>
+          <div class="header-title">UeCampus Support</div>
+          <div class="header-subtitle">We reply instantly</div>
+        </div>
+      </div>
+      <!-- Settings button -->
+      <button id="chat-settings-btn" aria-label="Chat Settings">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Settings Panel (Toggled via Gear icon) -->
+    <div id="settings-panel" class="hidden">
+      <h3>Chatbot Configuration</h3>
+      <div class="setting-item">
+        <label for="ai-mode-toggle" class="switch-container">
+          <span>AI Mode (Powered by Gemini)</span>
+          <input type="checkbox" id="ai-mode-toggle" />
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+      <div id="api-key-container" class="setting-item hidden">
+        <label for="api-key-input">Gemini API Key (Local/Client Mode):</label>
+        <input type="password" id="api-key-input" placeholder="AI key (starts with AIza...)" />
+        <p class="setting-desc">To secure in production, use the Node backend proxy instead. Key is saved locally in your browser.</p>
+      </div>
+      <div class="setting-info">
+        <p><strong>Proxy status:</strong> <span id="proxy-status">Checking...</span></p>
+      </div>
+      <button id="save-settings-btn">Save & Close</button>
+    </div>
+
+    <!-- Messages -->
+    <div id="chat-messages">
+      <!-- Welcome page cards and messages are dynamically loaded here -->
+    </div>
+
+    <!-- Autocomplete Suggestions List -->
+    <div id="autocomplete-suggestions" class="hidden">
+      <!-- Suggested questions will render here -->
+    </div>
+
+    <!-- Quick questions chips (deprecated but kept for backward compatibility) -->
+    <div id="quick-questions" class="hidden"></div>
+
+    <!-- Input Area -->
+    <div id="chat-input-area">
+      <input type="text" id="chat-input" placeholder="Type your question..." autocomplete="off" />
+      <button id="chat-send" aria-label="Send message">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="faq-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

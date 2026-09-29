@@ -1,0 +1,5683 @@
+{
+  "qualifi-level-2-business-management": {
+    "source": "https://qualifi.net/qualifi-level-2-diploma-in-business-and-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Business and Management Skills",
+          "Customer Service Management",
+          "Communication Skills",
+          "Management and Leadership"
+        ]
+      }
+    ]
+  },
+  "level-2-diploma-in-business-beginners-in-cyber-security": {
+    "source": "https://qualifi.net/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Cyber Security: What is 'Hacking'?",
+          "Cyber Attack Methods",
+          "Computer and Data Use: Law and Regulations",
+          "Mobile Devices and Data: Security Issues and Risks",
+          "Cyber Security Network Solutions"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-3-business-management": {
+    "source": "https://qualifi.net/qualifi-level-3-diploma-in-business-management/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          "An Introduction to the Business Environment",
+          "Business Resources",
+          "An Introduction to Marketing",
+          "Human Resource Management"
+        ]
+      },
+      {
+        "title": "Optional Units",
+        "items": [
+          "Business Communication",
+          "Understanding Health and Safety in the Business Workplace",
+          "Recruitment and Selection in Business"
+        ]
+      }
+    ]
+  },
+  "level-3-extended-diploma-in-it-and-data-science": {
+    "source": "https://qualifi.net/qualifi-level-3-extended-diploma-in-it-and-data-science/",
+    "modules": [
+      {
+        "title": "Foundation Units",
+        "items": [
+          "English for Higher Education",
+          "Communication and Cultural Skills for Higher Education",
+          "An Introduction to the Business Environment",
+          "Business Resources",
+          "An Introduction to Marketing",
+          "Human Resource Management"
+        ]
+      },
+      {
+        "title": "Information Technology Units",
+        "items": [
+          "Computer Systems",
+          "Coding and Website Development",
+          "Networks",
+          "Mobile Communications",
+          "Cyber Security",
+          "Social Media for Business"
+        ]
+      },
+      {
+        "title": "Data Science Units",
+        "items": [
+          "The Field of Data Science",
+          "Python for Data Science",
+          "Creating and Interpreting Visualisations in Data Science",
+          "Data and Descriptive Statistics in Data Science",
+          "Fundamentals of Data Analytics",
+          "Data Analytics with Python",
+          "Machine Learning Methods and Models in Data Science",
+          "The Machine Learning Process",
+          "Linear Regression in Data Science",
+          "Logistic Regression in Data Science",
+          "Decision Trees in Data Science",
+          "K-means Clustering in Data Science",
+          "Synthetic Data for Privacy and Security in Data Science",
+          "Graphs and Graph Data Science"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-4-business-management": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-business-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-4-information-technology": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-information-technology/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          {
+            "name": "Information Technology and IT Ethics",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematics and Statistics for IT",
+            "credit": "20 credits"
+          },
+          {
+            "name": "PC Maintenance and Operating Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computer Graphics Editing and Database Concepts",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 80 credits"
+      },
+      {
+        "title": "Optional Units",
+        "items": [
+          {
+            "name": "Logical IT Networking",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Physical IT Networking",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Web Programming",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Graphical User Interface (GUI)",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Programming Concepts and Java for Android Programming",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 100 credits"
+      }
+    ]
+  },
+  "qualifi-level-5-extended-business-management": {
+    "source": "https://qualifi.net/qualifi-level-5-extended-diploma-in-business-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 240 credits"
+      }
+    ]
+  },
+  "qualifi-level-5-extended-information-technology": {
+    "source": "https://qualifi.net/qualifi-level-5-extended-diploma-in-information-technology/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          {
+            "name": "Information Technology and IT Ethics",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematics and Statistics for IT",
+            "credit": "20 credits"
+          },
+          {
+            "name": "PC Maintenance and Operating Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computer Graphics Editing and Database Concepts",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Technopreneurship",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Network Security",
+            "credit": "20 credits"
+          },
+          {
+            "name": "C#.NET Programming",
+            "credit": "20 credits"
+          },
+          {
+            "name": "System Administration",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 160 credits"
+      },
+      {
+        "title": "Optional Units",
+        "items": [
+          {
+            "name": "Logical IT Networking",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Physical IT Networking",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Web Programming",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Graphical User Interface (GUI)",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Programming Concepts and Java for Android Programming",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Network Routing and Switching",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Network Design and Administration",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Content Management Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Web Design",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business to Business (B2B) E-commerce",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business to Consumer (B2C) E-commerce",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 220 credits"
+      }
+    ]
+  },
+  "qualifi-level-6-business-management": {
+    "source": "https://qualifi.net/level-6-diploma-in-business-management-leadership-and-innovation/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Leadership in a Changing World",
+          "Introduction to Contemporary Business Strategy: Sustainable Business Growth",
+          "Finance for Strategic Decision-makers",
+          "Leadership in Multicultural Contexts",
+          "Creating Futures: Sustainable Enterprise and Innovation",
+          "Sustainable Risk Management"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-4-cyber-security": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-cyber-security/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          {
+            "name": "Cyber Security Threat and Risk",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Network Security and Data Communications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Database Security and Computer Programming",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Incident Response, Investigations and Forensics",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Security Strategy: Laws, Policies and Implementation",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 100 credits"
+      },
+      {
+        "title": "Optional Units",
+        "items": [
+          {
+            "name": "Cyber Security Threats and Risk: Banking and Finance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Cyber Wars",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 40 credits"
+      }
+    ]
+  },
+  "qualifi-level-5-extended-cyber-security": {
+    "source": "https://qualifi.net/qualifi-level-5-diploma-in-cyber-security/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          {
+            "name": "Cryptography",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Digital Investigations and Forensics",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Communications and Incident Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Strategic Leadership",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-4-accounting-finance": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-accounting-and-finance/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Accounting in a Business Context",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Economics for Business",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematical Accounting Methods",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Accounting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management Accounting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and Management in Accounting",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-5-accounting-finance": {
+    "source": "https://qualifi.net/qualifi-level-5-diploma-in-accounting-and-finance/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Planning and Control",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Principles and Practices of Taxation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management of People",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethics and Corporate Responsibility in Business",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-4-psychology": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-psychology/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "The Scope of Psychology",
+          "Social and Developmental Psychology",
+          "Biopsychology",
+          "The Development of Psychological Attachments",
+          "Processes of Human Memory",
+          "Research Methods and Investigating Psychology"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-5-psychology": {
+    "source": "https://qualifi.net/qualifi-level-5-diploma-in-psychology/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Psychological Approaches to Depression and Schizophrenia",
+          "Visual Perception in a Psychological Context",
+          "Social Psychology: Pro and Anti-Social Behaviour",
+          "The Diversity of Addiction",
+          "Individual Differences: Intelligence, Personality and Criminology",
+          "Contemporary Issues and Debates in Psychology"
+        ]
+      }
+    ]
+  },
+  "level-4-diploma-in-artificial-intelligence": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-artificial-intelligence/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Introduction to Artificial Intelligence and Applications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematical Foundations for Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Data Science Using Python",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Big Data Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Introduction to Deep Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Artificial Intelligence Ethics",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "level-5-diploma-in-artificial-intelligence": {
+    "source": "https://qualifi.net/qualifi-qualifi-level-5-diploma-in-artificial-intelligence/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          {
+            "name": "Visualisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Reinforce Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Natural Language Processing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Human-AI Interaction",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Advanced Deep Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Introduction to Computer Vision",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits at Level 5 (Ofqual 610/3935/4)"
+      }
+    ]
+  },
+  "qualifi-level-5-education-training": {
+    "source": "https://qualifi.net/qualifi-level-5-diploma-in-education-and-training/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          "Theories, Principles and Models in Education and Training",
+          "Teaching, Learning and Assessment in Education and Training",
+          "Developing Teaching, Learning and Assessment in Education and Training",
+          "Professional Practice in Education and Training"
+        ]
+      },
+      {
+        "title": "Optional Units",
+        "items": [
+          "Action Research",
+          "Develop and Prepare Resources for Learning and Development",
+          "Developing, using and organising resources in a specialist area",
+          "Equality and Diversity",
+          "Inclusive Practice",
+          "Internally Assure the Quality of Assessment",
+          "Manage Learning and Development in Groups"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-5-hospitality-tourism": {
+    "source": "https://qualifi.net/qualifi-level-5-diploma-in-hospitality-and-tourism-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Tourism Destination Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Entrepreneurship in Tourism and Hospitality Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Cultural Tourism Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Research Project",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "level-4-diploma-in-hospitality-and-tourism-management": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-hospitality-and-tourism-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Sustainability in Tourism and Hospitality Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Operations Management in Tourism and Resort Operations",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Management of Visitor Attractions",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Employability and Development in the Hospitality Industry",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-7-hospitality-tourism-management": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-hospitality-and-tourism-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Marketing Approaches in Hospitality and Tourism",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Strategic Planning Facets in Hospitality and Tourism",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Tourism Policy in International Context and Development",
+            "credit": "30 credits"
+          },
+          {
+            "name": "The Culture and Society in Tourism",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "level-7-diploma-in-hospitality-and-tourism-management": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-hospitality-and-tourism-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Marketing Approaches in Hospitality and Tourism",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Strategic Planning Facets in Hospitality and Tourism",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Tourism Policy in International Context and Development",
+            "credit": "30 credits"
+          },
+          {
+            "name": "The Culture and Society in Tourism",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-7-health-social-care": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-health-and-social-care/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Health and Social Care Leadership",
+          "Managing People in Health and Social Care",
+          "Managing Finance in Health and Social Care",
+          "Health and Social Care Strategies and Policies",
+          "Leading Change in Health and Social Care",
+          "Research Methods for Healthcare Professionals"
+        ]
+      }
+    ]
+  },
+  "level-7-diploma-in-health-and-social-care": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-health-and-social-care/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Health and Social Care Leadership",
+          "Managing People in Health and Social Care",
+          "Managing Finance in Health and Social Care",
+          "Health and Social Care Strategies and Policies",
+          "Leading Change in Health and Social Care",
+          "Research Methods for Healthcare Professionals"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-7-psychology": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-psychology/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Psychoanalysis and Mental Health",
+          "Exploring Psychology",
+          "Cognitive and Biological Psychology",
+          "Qualitative Research Methodology",
+          "Social and Cultural Psychology and Psychology of Human Development",
+          "Rehabilitation Psychology"
+        ]
+      }
+    ]
+  },
+  "level-7-diploma-in-psychology": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-psychology/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Psychoanalysis and Mental Health",
+          "Exploring Psychology",
+          "Cognitive and Biological Psychology",
+          "Qualitative Research Methodology",
+          "Social and Cultural Psychology and Psychology of Human Development",
+          "Rehabilitation Psychology"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-7-business-psychology": {
+    "source": "https://www.lsib.co.uk/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Understanding Business Psychology",
+          "Research Methods in Business Psychology",
+          "Organisational Behaviour",
+          "Leadership and Management",
+          "Employee Engagement and Motivation",
+          "Psychological Assessment in the Workplace",
+          "Diversity and Inclusion in Organisations",
+          "Change Management",
+          "Coaching and Mentoring in Business",
+          "Ethics and Professional Practice in Business Psychology"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-7-strategic-management": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-management-and-leadership/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 90 credits"
+      },
+      {
+        "title": "Optional Units",
+        "items": [
+          {
+            "name": "Finance for Managers",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Organisational Change Strategies",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 60 credits"
+      }
+    ]
+  },
+  "level-7-diploma-in-strategic-management-and-leadership": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-management-and-leadership/",
+    "modules": [
+      {
+        "title": "Mandatory Units",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 90 credits"
+      },
+      {
+        "title": "Optional Units",
+        "items": [
+          {
+            "name": "Finance for Managers",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Organisational Change Strategies",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 60 credits"
+      }
+    ]
+  },
+  "qualifi-level-7-strategic-marketing": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-marketing/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Contemporary Issues and Principles of Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Consumer Behaviour and Market Communications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Digital and Social Media Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Contemporary Challenges and Strategic Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Brand Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Marketing Research Project",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "level-7-diploma-in-strategic-marketing": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-marketing/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Contemporary Issues and Principles of Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Consumer Behaviour and Market Communications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Digital and Social Media Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Contemporary Challenges and Strategic Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Brand Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Marketing Research Project",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-7-human-resource-management": {
+    "source": "https://qualifi.net/level-7-diploma-in-human-resource-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Contemporary HRM",
+          "Leading, Managing and HR Development",
+          "Resourcing, Talent Management and Development",
+          "Performance Management",
+          "Employee Relations",
+          "Investigating a Business Issue from an HR Perspective"
+        ]
+      }
+    ]
+  },
+  "level-7-diploma-in-human-resource-management": {
+    "source": "https://qualifi.net/level-7-diploma-in-human-resource-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Contemporary HRM",
+          "Leading, Managing and HR Development",
+          "Resourcing, Talent Management and Development",
+          "Performance Management",
+          "Employee Relations",
+          "Investigating a Business Issue from an HR Perspective"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-7-education-management": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-educational-management-and-leadership/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Leadership Qualities and Practice in Education",
+          "Contemporary Issues in Education: Theory, Policy and Practice",
+          "Managing Change in an Educational Context",
+          "Pedagogy and Practice in Education",
+          "Leading Reflective Practice in Education",
+          "Research Methods in Education"
+        ]
+      }
+    ]
+  },
+  "level-7-diploma-in-education-management-and-leadership": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-educational-management-and-leadership/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Leadership Qualities and Practice in Education",
+          "Contemporary Issues in Education: Theory, Policy and Practice",
+          "Managing Change in an Educational Context",
+          "Pedagogy and Practice in Education",
+          "Leading Reflective Practice in Education",
+          "Research Methods in Education"
+        ]
+      }
+    ]
+  },
+  "level-7-diploma-in-executive-management": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-executive-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Corporate Strategy",
+          "Corporate Finance and Financial Strategy",
+          "Human Resource Practice, Leadership and Managing People",
+          "Global Trade and its Impact on Strategy",
+          "Research, Problem Solving and Business Reporting",
+          "Operations, Quality and Supply Chain Management",
+          "Strategic Marketing",
+          "Project Management"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-7-data-science": {
+    "source": "https://www.lsbr.uk/course/qualifi-level-7-diploma-in-data-science",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Unsupervised Multivariate Methods",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Time Series Analysis",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Advanced Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Fundamentals of Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Statistical Inference",
+            "credit": "12 credits"
+          },
+          {
+            "name": "Exploratory Data Analysis",
+            "credit": "8 credits"
+          },
+          {
+            "name": "Contemporary Themes in Business Strategy",
+            "credit": "10 credits"
+          },
+          {
+            "name": "Further Topics in Data Science",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Machine Learning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "level-7-diploma-in-data-science": {
+    "source": "https://www.lsbr.uk/course/qualifi-level-7-diploma-in-data-science",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Unsupervised Multivariate Methods",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Time Series Analysis",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Advanced Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Fundamentals of Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Statistical Inference",
+            "credit": "12 credits"
+          },
+          {
+            "name": "Exploratory Data Analysis",
+            "credit": "8 credits"
+          },
+          {
+            "name": "Contemporary Themes in Business Strategy",
+            "credit": "10 credits"
+          },
+          {
+            "name": "Further Topics in Data Science",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Machine Learning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-7-information-technology": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-it/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Computer Networks",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Data Analytics",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Database Management Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management Information Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computers and Society",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computing Projects",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "level-7-diploma-in-information-technology": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-it/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Computer Networks",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Data Analytics",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Database Management Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management Information Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computers and Society",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computing Projects",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "qualifi-level-7-accounting-finance": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-accounting-and-finance/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Strategy and Global Finance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Auditing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethical Behaviour and Corporate Governance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Corporate Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Analyst",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "level-7-diploma-in-accounting-and-finance": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-accounting-and-finance/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          {
+            "name": "Strategy and Global Finance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Auditing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethical Behaviour and Corporate Governance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Corporate Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Analyst",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "level-7-diploma-in-cyber-security": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-cyber-security/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Fundamentals of Cyber Security",
+          "Network, Infrastructure and Systems Security",
+          "Applications of Cyber Security",
+          "Security Management and Governance",
+          "Cryptography"
+        ]
+      }
+    ]
+  },
+  "level-7-diploma-in-logistics-and-supply-chain-crisis-management": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-logistics-and-supply-chain-crisis-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Critical Issues: Strategic Framework for Understanding Risk and Resilience Building",
+          "Engineering Systems Views of Supply Chain Resilience",
+          "Sector Specific Supply Chain Resilience Management",
+          "Ethical and Social Supply Chain Management",
+          "Critical Issues: Supply Chain Crime, Corruption and Terrorism",
+          "Critical Issues: Management of Supply Chains during Natural Disasters, Climate Change and Pandemics"
+        ]
+      }
+    ]
+  },
+  "level-7-international-diploma-in-process-safety-management": {
+    "source": "https://qualifi.net/qualifi-level-7-international-diploma-in-process-safety-management/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Process Safety Management Systems",
+          "Risk Based Process Safety",
+          "Process Safety Culture and Human Factors",
+          "Development as a Strategic Manager"
+        ]
+      }
+    ]
+  },
+  "qualifi-level-8-business-administration": {
+    "source": "https://qualifi.net/qualifi-level-8-diploma-in-strategic-management-and-leadership/",
+    "modules": [
+      {
+        "title": "Programme Units",
+        "items": [
+          "Leadership Qualities and Practice",
+          "Personal Leadership Development as a Strategic Manager",
+          "Strategy Development in Cross Border and Global Organisations",
+          "Strategic Planning in Cross Border and Global Organisations",
+          "Strategic Direction in Cross Border and Global Organisations",
+          "Strategic Communication",
+          "Culture and its Impact on Strategy",
+          "Research Methods"
+        ]
+      }
+    ]
+  },
+  "dba-walsh": {
+    "source": "https://walshcollege.edu/programs/doctor-of-business-administration-accounting/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "DCT 700 - Doctoral Studies Seminar",
+          "RES 711 - Research Methods: Introduction and Scope",
+          "RES 712 - Qualitative and Exploratory Research Methods",
+          "RES 713 - Quantitative Research Methods I: Data Management and Non-Experimental",
+          "RES 714 - Quantitative Research Methods II: Experimental and Statistical",
+          "DCT 701 - Comprehensive Examination for Doctorate",
+          "DIS 796 - Dissertation I, Chapter 1",
+          "DIS 797 - Dissertation II, Chapter 2",
+          "DIS 798 - Dissertation III, Chapter 3",
+          "DIS 799 - Dissertation IV, Chapter 4",
+          "DIS 800 - Dissertation V, Chapter 5"
+        ]
+      },
+      {
+        "title": "Residency Courses",
+        "items": [
+          "RSD 801 - Doctoral Residency I",
+          "RSD 802 - Doctoral Residency II",
+          "RSD 803 - Doctoral Residency III"
+        ]
+      },
+      {
+        "title": "Accounting Concentration",
+        "items": [
+          "ACC 732 - Accounting and Financial Reporting in the Global Economy",
+          "ACC 733 - Financial Accounting Theory & Analysis",
+          "ACC 734 - Seminar in Empirical Accounting Research",
+          "ACC 735 - Applied Research in Accounting Topics",
+          "BTC 701 - Organizational Resilience Framework",
+          "ECN 724 - The Consequences of Economic Development for Business",
+          "FIN 748 - Financial and Economic Model Analysis",
+          "IT 701 - Innovation, Risk, and Cybersecurity",
+          "MGT 765 - High Performance Leadership"
+        ]
+      }
+    ]
+  },
+  "mba-general-management-walsh": {
+    "source": "https://walshcollege.edu/programs/master-of-business-administration/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "BL 558 - Legal and Ethical Essentials for Business",
+          "BTC 500 - Operations Management & Process Efficiency",
+          "BTC 505 - Organizational Resilience Framework I",
+          "BTC 506 - Organizational Resilience Framework II",
+          "FIN 610 - Foundations of Financial Analysis",
+          "IT 567 - Business Continuity, Resilience, and Crisis Management",
+          "QM 520 - Business Analytics",
+          "BTC 590 - Strategic Resilience Capstone"
+        ]
+      },
+      {
+        "title": "Management Concentration",
+        "items": [
+          "IT 551 - Project Management Fundamentals",
+          "MGT 555 - Human Resources Management",
+          "MGT 604 - Leading Organizational Change",
+          "MGT 633 - Leading Projects, Programs and Operations"
+        ]
+      }
+    ]
+  },
+  "msc-artificial-intelligence-walsh": {
+    "source": "https://walshcollege.edu/walsh-graduate-degree-programs/master-of-science-in-artificial-intelligence-and-machine-learning/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "IT 540 - Introduction to Data Science",
+          "IT 542 - Big Data Analytics",
+          "IT 544 - Data Visualization and Predictive Modeling",
+          "IT 545 - Programming for Data Analysis",
+          "IT 556 - Machine Learning",
+          "IT 557 - Computer Vision & Deep Learning",
+          "IT 558 - Deep Learning Theory",
+          "IT 559 - Natural Language Processing",
+          "QM 525 - Math of AI and Deep Learning"
+        ]
+      }
+    ]
+  },
+  "msc-cyber-security-walsh": {
+    "source": "https://walshcollege.edu/programs/master-of-science-information-technology/",
+    "modules": [
+      {
+        "title": "Cybersecurity Concentration",
+        "items": [
+          "IT 510 - Cybersecurity Strategies and Tactics",
+          "IT 511 - Threats, Vulnerabilities, Controls, and Countermeasures",
+          "IT 512 - Intelligence Analysis Tools and Techniques",
+          "IT 536 - Digital Forensics",
+          "IT 537 - Cryptography",
+          "IT 538 - Cyber Physical Systems"
+        ]
+      }
+    ]
+  },
+  "bba-walsh": {
+    "source": "https://walshcollege.edu/programs/bachelor-of-business-administration-general-business/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "COM 405 - Business Communication Strategies",
+          "FIN 315 - Financial Management",
+          "IDS 400 - Critical Thinking for Ethical Leaders",
+          "IT 335 - Cybersecurity & Risk Management for Business",
+          "MGT 410 - Production and Operations Management",
+          "MGT 415 - Business Strategy of Organizational Resilience",
+          "MKT 300 - Contemporary Marketing Trends",
+          "QM 301 - Business Analytics & Problem Solving"
+        ]
+      },
+      {
+        "title": "General Business Major Courses",
+        "items": [
+          "MGT 453 - Organizational Leadership",
+          "MGT 454 - Project Management",
+          "300-400 Level Electives"
+        ]
+      },
+      {
+        "title": "Capstone",
+        "items": [
+          "MGT 461 - Business Strategy and Policy"
+        ]
+      }
+    ]
+  },
+  "bba-marketing-walsh": {
+    "source": "https://walshcollege.edu/programs/bachelor-of-business-administration-marketing/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "COM 405 - Business Communication Strategies",
+          "FIN 315 - Financial Management",
+          "IDS 400 - Critical Thinking for Ethical Leaders",
+          "IT 335 - Cybersecurity & Risk Management for Business",
+          "MGT 410 - Production and Operations Management",
+          "MGT 415 - Business Strategy of Organizational Resilience",
+          "MKT 300 - Contemporary Marketing Trends",
+          "QM 301 - Business Analytics & Problem Solving"
+        ]
+      },
+      {
+        "title": "Marketing Major Courses",
+        "items": [
+          "MKT 309 - Advertising and Promotion Management",
+          "MKT 415 - Consumer and Buyer Behavior",
+          "MKT 435 - Marketing Research",
+          "MKT 460 - Strategic Marketing"
+        ]
+      },
+      {
+        "title": "Capstone",
+        "items": [
+          "MGT 461 - Business Strategy and Policy"
+        ]
+      }
+    ]
+  },
+  "bba-international-business-walsh": {
+    "source": "https://walshcollege.edu/programs/bachelor-of-business-administration-international-business/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "COM 405 - Business Communication Strategies",
+          "FIN 315 - Financial Management",
+          "IDS 400 - Critical Thinking for Ethical Leaders",
+          "IT 335 - Cybersecurity & Risk Management for Business",
+          "MGT 410 - Production and Operations Management",
+          "MGT 415 - Business Strategy of Organizational Resilience",
+          "MKT 300 - Contemporary Marketing Trends",
+          "QM 301 - Business Analytics & Problem Solving"
+        ]
+      },
+      {
+        "title": "International Business Major Courses",
+        "items": [
+          "FIN 412 - International Economics and Finance",
+          "MGT 407 - International Management & Labor Relations",
+          "MGT 408 - Global Project Management Strategies",
+          "MGT 457 - Global Management"
+        ]
+      },
+      {
+        "title": "Capstone",
+        "items": [
+          "MGT 461 - Business Strategy and Policy"
+        ]
+      }
+    ]
+  },
+  "bsc-information-technology-walsh": {
+    "source": "https://walshcollege.edu/programs/bachelor-of-science-in-information-technology/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "COM 405 - Business Communication Strategies",
+          "IT 402 - Systems Analysis and Design",
+          "IT 405 - Networks & Operating Systems",
+          "IT 408 - Database Design & Development (SQL)",
+          "IT 417 - Fundamentals of Cybersecurity"
+        ]
+      },
+      {
+        "title": "Information Technology Major Courses",
+        "items": [
+          "IT 407 - Server Virtualization & Performance Engineering",
+          "IT 410 - Principles of Software Engineering",
+          "IT 412 - Advanced Programming",
+          "IT 440 - Cloud Infrastructure",
+          "300-400 Level IT Electives"
+        ]
+      },
+      {
+        "title": "Capstone",
+        "items": [
+          "IT 599 - IT Capstone"
+        ]
+      }
+    ]
+  },
+  "bsc-cyber-security-walsh": {
+    "source": "https://walshcollege.edu/programs/bachelor-of-science-in-information-technology-cybersecurity/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "COM 405 - Business Communication Strategies",
+          "IT 402 - Systems Analysis and Design",
+          "IT 405 - Networks & Operating Systems",
+          "IT 408 - Database Design & Development (SQL)",
+          "IT 417 - Fundamentals of Cybersecurity"
+        ]
+      },
+      {
+        "title": "Cybersecurity Major Courses",
+        "items": [
+          "IT 419 - Ethical Hacking Strategies & Tools",
+          "IT 422 - Advanced Team-Based Attack/Defend Techniques",
+          "IT 460 - Digital and Network Forensics",
+          "IT 461 - Security Operations and Awareness",
+          "IT 462 - Securing Cyber Physical Systems",
+          "IT 463 - Cryptography"
+        ]
+      }
+    ]
+  },
+  "bba-finance-walsh": {
+    "source": "https://walshcollege.edu/programs/bachelor-of-business-administration-finance/",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          "COM 405 - Business Communication Strategies",
+          "FIN 315 - Financial Management",
+          "IDS 400 - Critical Thinking for Ethical Leaders",
+          "IT 335 - Cybersecurity & Risk Management for Business",
+          "MGT 410 - Production and Operations Management",
+          "MGT 415 - Business Strategy of Organizational Resilience",
+          "MKT 300 - Contemporary Marketing Trends",
+          "QM 301 - Business Analytics & Problem Solving"
+        ]
+      },
+      {
+        "title": "Finance Major Courses",
+        "items": [
+          "ECN 405 - Managerial Economics",
+          "FIN 430 - Business Decisions and Value Generation",
+          "FIN 490 - Finance Capstone Simulation"
+        ]
+      },
+      {
+        "title": "Capstone",
+        "items": [
+          "MGT 461 - Business Strategy and Policy"
+        ]
+      }
+    ]
+  },
+  "bachelors-in-accounting": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-accounting-and-finance/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units",
+        "items": [
+          {
+            "name": "Accounting in a Business Context",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Economics for Business",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematical Accounting Methods",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Accounting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management Accounting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and Management in Accounting",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units",
+        "items": [
+          {
+            "name": "Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Planning and Control",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Principles and Practices of Taxation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management of People",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethics and Corporate Responsibility in Business",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "ACC 301 - Intermediate Accounting I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 302 - Intermediate Accounting II",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 303 - Intermediate Accounting III",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 316 - Tools for Accounting Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 406 - Accounting Information Systems",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 412 - Government & Not-for-Profit Accounting",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 415 - Auditing",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 484 - Applied Managerial Simulation",
+            "credit": "3 credits"
+          },
+          {
+            "name": "TAX 405 - Taxation of Individuals",
+            "credit": "3 credits"
+          },
+          {
+            "name": "TAX 406 - Taxation of Business Entities",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 30 credits"
+      }
+    ]
+  },
+  "bba-in-accounting": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-accounting-and-finance/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units",
+        "items": [
+          {
+            "name": "Accounting in a Business Context",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Economics for Business",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematical Accounting Methods",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Accounting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management Accounting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and Management in Accounting",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units",
+        "items": [
+          {
+            "name": "Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Planning and Control",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Principles and Practices of Taxation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management of People",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethics and Corporate Responsibility in Business",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "ACC 301 - Intermediate Accounting I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 302 - Intermediate Accounting II",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 303 - Intermediate Accounting III",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 316 - Tools for Accounting Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 406 - Accounting Information Systems",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 412 - Government & Not-for-Profit Accounting",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 415 - Auditing",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 484 - Applied Managerial Simulation",
+            "credit": "3 credits"
+          },
+          {
+            "name": "TAX 405 - Taxation of Individuals",
+            "credit": "3 credits"
+          },
+          {
+            "name": "TAX 406 - Taxation of Business Entities",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 30 credits"
+      }
+    ]
+  },
+  "bachelors-in-data-analytics": {
+    "source": "Qualifi Level 4/5 Data Analytics + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units",
+        "items": [
+          {
+            "name": "Introduction to Artificial Intelligence and Applications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematical Foundations for Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Data Science Using Python",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Big Data Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Introduction to Deep Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Artificial Intelligence Ethics",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units",
+        "items": [
+          {
+            "name": "Data Visualisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Reinforcement Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Natural Language Processing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Human-AI Interaction",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Advanced Deep Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Introduction to Computer Vision",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "IT 403 - Project Management & ITIL Framework",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 410 - Principles of Software Engineering",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 445 - Programming for Data Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 456 - Machine Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 544 - Data Visualization and Predictive Modeling",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 547 - Data Storage Technologies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Business Analytics & Problem Solving",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 504 - Principles of Data Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 505 - Data Driven Decision Making",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 499 - Collaborative Business Systems (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 30 credits"
+      }
+    ]
+  },
+  "bsc-in-data-analytics": {
+    "source": "Qualifi Level 4/5 Data Analytics + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units",
+        "items": [
+          {
+            "name": "Introduction to Artificial Intelligence and Applications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematical Foundations for Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Data Science Using Python",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Big Data Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Introduction to Deep Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Artificial Intelligence Ethics",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units",
+        "items": [
+          {
+            "name": "Data Visualisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Reinforcement Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Natural Language Processing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Human-AI Interaction",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Advanced Deep Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Introduction to Computer Vision",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "IT 403 - Project Management & ITIL Framework",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 410 - Principles of Software Engineering",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 445 - Programming for Data Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 456 - Machine Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 544 - Data Visualization and Predictive Modeling",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 547 - Data Storage Technologies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Business Analytics & Problem Solving",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 504 - Principles of Data Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 505 - Data Driven Decision Making",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 499 - Collaborative Business Systems (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 30 credits"
+      }
+    ]
+  },
+  "bachelors-in-entrepreneurship": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-entrepreneurship/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units (Entrepreneurship)",
+        "items": [
+          {
+            "name": "Managing Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Personal Effectiveness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "The Entrepreneurial Manager",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Planning and Goal Setting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "The Manager's Toolkit",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units (Business Enterprise)",
+        "items": [
+          {
+            "name": "Entrepreneurship, Enterprise and Creativity",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Influences on Organisational Growth and Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Venture Management: Growing a Business",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Marketing for Growth Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing and Launching a New Business",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Social Enterprise and Third Sector Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "FIN 407 - Entrepreneurial Finance",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 315 - Sustainability and Innovation",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 406 - Small Business Legal and Tax Issues",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 454 - Project Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 463 - Managing Technology as a Strategic Resource",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 468 - Entrepreneurship: from Vision to Pitch",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MKT 415 - Consumer and Buyer Behavior",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 24 credits"
+      }
+    ]
+  },
+  "bba-in-entrepreneurship": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-entrepreneurship/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units (Entrepreneurship)",
+        "items": [
+          {
+            "name": "Managing Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Personal Effectiveness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "The Entrepreneurial Manager",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Planning and Goal Setting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "The Manager's Toolkit",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units (Business Enterprise)",
+        "items": [
+          {
+            "name": "Entrepreneurship, Enterprise and Creativity",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Influences on Organisational Growth and Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Venture Management: Growing a Business",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Marketing for Growth Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing and Launching a New Business",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Social Enterprise and Third Sector Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "FIN 407 - Entrepreneurial Finance",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 315 - Sustainability and Innovation",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 406 - Small Business Legal and Tax Issues",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 454 - Project Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 463 - Managing Technology as a Strategic Resource",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 468 - Entrepreneurship: from Vision to Pitch",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MKT 415 - Consumer and Buyer Behavior",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 24 credits"
+      }
+    ]
+  },
+  "bba-in-general-business": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-business-management/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MGT 453 - Organizational Leadership",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 454 - Project Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          },
+          {
+            "name": "300-400 Level Business Electives",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 12 credits"
+      }
+    ]
+  },
+  "bachelor-of-business-administration-bba": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-business-management/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MGT 453 - Organizational Leadership",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 454 - Project Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          },
+          {
+            "name": "300-400 Level Business Electives",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 12 credits"
+      }
+    ]
+  },
+  "bsc-in-artificial-intelligence--machine-learning": {
+    "source": "https://qualifi.net/qualifi-level-4-diploma-in-artificial-intelligence/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma Units",
+        "items": [
+          {
+            "name": "Introduction to Artificial Intelligence and Applications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematical Foundations for Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Data Science Using Python",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Big Data Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Introduction to Deep Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Artificial Intelligence Ethics",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma Units",
+        "items": [
+          {
+            "name": "Data Visualisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Reinforcement Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Natural Language Processing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Human-AI Interaction",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Advanced Deep Machine Learning",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Introduction to Computer Vision",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "IT 445 - Programming for Data Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 456 - Machine Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 544 - Data Visualization and Predictive Modeling",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 557 - Computer Vision & Deep Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 558 - Deep Learning Theory",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 559 - Natural Language Processing",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Business Analytics & Problem Solving",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 505 - Data Driven Decision Making",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 525 - Math of AI and Deep Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 499 - Collaborative Business Systems (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 30 credits"
+      }
+    ]
+  },
+  "msc-in-ai-and-machine-learning": {
+    "source": "https://www.lsbr.uk/course/qualifi-level-7-diploma-in-data-science + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Data Science",
+        "items": [
+          {
+            "name": "Exploratory Data Analysis",
+            "credit": "8 credits"
+          },
+          {
+            "name": "Statistical Inference",
+            "credit": "12 credits"
+          },
+          {
+            "name": "Fundamentals of Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Time Series Analysis",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Unsupervised Multivariate Methods",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Advanced Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Machine Learning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Contemporary Themes in Business Strategy",
+            "credit": "10 credits"
+          },
+          {
+            "name": "Further Topics in Data Science",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "IT 540 - Introduction to Data Science",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 542 - Big Data Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 544 - Data Visualization and Predictive Modeling",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 545 - Programming for Data Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 556 - Machine Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 557 - Computer Vision & Deep Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 558 - Deep Learning Theory",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 559 - Natural Language Processing",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 525 - Math of AI and Deep Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 599 - Capstone",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 30 credits"
+      }
+    ]
+  },
+  "master-of-science-in-data-analytics": {
+    "source": "https://www.lsbr.uk/course/qualifi-level-7-diploma-in-data-science + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Data Science",
+        "items": [
+          {
+            "name": "Exploratory Data Analysis",
+            "credit": "8 credits"
+          },
+          {
+            "name": "Statistical Inference",
+            "credit": "12 credits"
+          },
+          {
+            "name": "Fundamentals of Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Time Series Analysis",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Unsupervised Multivariate Methods",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Advanced Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Machine Learning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Contemporary Themes in Business Strategy",
+            "credit": "10 credits"
+          },
+          {
+            "name": "Further Topics in Data Science",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "IT 544 - Data Visualization and Predictive Modeling",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 545 - Programming for Data Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 546 - Data Mining & Transformation",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 547 - Data Storage Technologies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 504 - Principles of Data Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 505 - Data Driven Decision Making",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 600 - Prescriptive Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 601 - Research Methods & Ethics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 602 - Lean Six Sigma",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 640 - Capstone",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 30 credits"
+      }
+    ]
+  },
+  "msc-in-data-analytics": {
+    "source": "https://www.lsbr.uk/course/qualifi-level-7-diploma-in-data-science + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Data Science",
+        "items": [
+          {
+            "name": "Exploratory Data Analysis",
+            "credit": "8 credits"
+          },
+          {
+            "name": "Statistical Inference",
+            "credit": "12 credits"
+          },
+          {
+            "name": "Fundamentals of Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Time Series Analysis",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Unsupervised Multivariate Methods",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Advanced Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Machine Learning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Contemporary Themes in Business Strategy",
+            "credit": "10 credits"
+          },
+          {
+            "name": "Further Topics in Data Science",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "IT 544 - Data Visualization and Predictive Modeling",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 545 - Programming for Data Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 546 - Data Mining & Transformation",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 547 - Data Storage Technologies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 504 - Principles of Data Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 505 - Data Driven Decision Making",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 600 - Prescriptive Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 601 - Research Methods & Ethics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 602 - Lean Six Sigma",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 640 - Capstone",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 30 credits"
+      }
+    ]
+  },
+  "master-of-science-in-finance": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-accounting-and-finance/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Accounting and Finance",
+        "items": [
+          {
+            "name": "Strategy and Global Finance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Auditing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethical Behaviour and Corporate Governance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Corporate Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Analyst",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "ACC 514 - Financial Accounting for Decision Making",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ECN 600 - Foundations of Economic Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 610 - Foundations of Financial Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 615 - Investment Performance",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 616 - Financial Data Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 620 - Financial Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 621 - Financial Statement Analysis",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 21 credits"
+      }
+    ]
+  },
+  "msc-in-finance": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-accounting-and-finance/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Accounting and Finance",
+        "items": [
+          {
+            "name": "Strategy and Global Finance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Auditing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethical Behaviour and Corporate Governance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Corporate Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Analyst",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "ACC 514 - Financial Accounting for Decision Making",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ECN 600 - Foundations of Economic Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 610 - Foundations of Financial Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 615 - Investment Performance",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 616 - Financial Data Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 620 - Financial Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 621 - Financial Statement Analysis",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 21 credits"
+      }
+    ]
+  },
+  "master-of-business-administration-mba": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-management-and-leadership/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Management and Leadership",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MGT 502 - Foundations for Business Success",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BL 558 - Legal and Ethical Essentials for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 500 - Operations Management & Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 505 - Organizational Resilience Framework I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 506 - Organizational Resilience Framework II",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 610 - Foundations of Financial Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 567 - Business Continuity, Resilience, and Crisis Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 520 - Business Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 590 - Strategic Resilience Capstone",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 27 credits"
+      }
+    ]
+  },
+  "masters-in-business-administration-mba": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-management-and-leadership/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Management and Leadership",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MGT 502 - Foundations for Business Success",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BL 558 - Legal and Ethical Essentials for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 500 - Operations Management & Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 505 - Organizational Resilience Framework I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 506 - Organizational Resilience Framework II",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 610 - Foundations of Financial Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 567 - Business Continuity, Resilience, and Crisis Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 520 - Business Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 590 - Strategic Resilience Capstone",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 27 credits"
+      }
+    ]
+  },
+  "master-of-business-administration-degree-mba": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-management-and-leadership/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Management and Leadership",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MGT 502 - Foundations for Business Success",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BL 558 - Legal and Ethical Essentials for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 500 - Operations Management & Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 505 - Organizational Resilience Framework I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 506 - Organizational Resilience Framework II",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 610 - Foundations of Financial Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 567 - Business Continuity, Resilience, and Crisis Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 520 - Business Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 590 - Strategic Resilience Capstone",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 27 credits"
+      }
+    ]
+  },
+  "stem-mba": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-management-and-leadership/ + Walsh College catalog",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Management and Leadership",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MGT 502 - Foundations for Business Success",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BL 558 - Legal and Ethical Essentials for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 500 - Operations Management & Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 505 - Organizational Resilience Framework I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 506 - Organizational Resilience Framework II",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 610 - Foundations of Financial Analysis",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 567 - Business Continuity, Resilience, and Crisis Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 520 - Business Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 590 - Strategic Resilience Capstone",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 27 credits"
+      }
+    ]
+  },
+  "bba-for-acca": {
+    "source": "https://www.accaglobal.com/ (ACCA Applied Skills) + Walsh College catalog",
+    "modules": [
+      {
+        "title": "ACCA Exam Papers",
+        "items": [
+          "BT - Business and Technology",
+          "MA - Management Accounting",
+          "FA - Financial Accounting",
+          "LW - Corporate and Business Law",
+          "PM - Performance Management",
+          "TX - Taxation",
+          "FR - Financial Reporting",
+          "AA - Audit and Assurance",
+          "FM - Financial Management"
+        ]
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "ACC 301 - Intermediate Accounting I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 302 - Intermediate Accounting II",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 303 - Intermediate Accounting III",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 316 - Tools for Accounting Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 406 - Accounting Information Systems",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 415 - Auditing",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 484 - Applied Managerial Simulation",
+            "credit": "3 credits"
+          },
+          {
+            "name": "TAX 405 - Taxation of Individuals",
+            "credit": "3 credits"
+          },
+          {
+            "name": "TAX 406 - Taxation of Business Entities",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 27 credits"
+      }
+    ]
+  },
+  "doctor-of-business-administration-dba": {
+    "source": "https://walshcollege.ae/DBA-BusinessAdministration",
+    "modules": [
+      {
+        "title": "Core & Research Courses",
+        "items": [
+          { "name": "DCT 700 - Doctoral Studies Seminar", "credit": "3 credits" },
+          { "name": "RES 711 - Research Methods: Introduction and Scope", "credit": "3 credits" },
+          { "name": "RES 712 - Qualitative and Exploratory Research Methods", "credit": "3 credits" },
+          { "name": "RES 713 - Quantitative Research Methods I: Data Management and Non-Experimental", "credit": "3 credits" },
+          { "name": "RES 714 - Quantitative Research Methods II: Experimental and Statistical", "credit": "3 credits" },
+          { "name": "DCT 701 - Comprehensive Examination for Doctorate", "credit": "0 credits" }
+        ]
+      },
+      {
+        "title": "Concentration (General Business)",
+        "items": [
+          { "name": "ACC 732 - Accounting and Financial Reporting in the Global Economy", "credit": "3 credits" },
+          { "name": "BTC 701 - Organizational Resilience Framework", "credit": "3 credits" },
+          { "name": "ECN 724 - The Consequences of Economic Development for Business", "credit": "3 credits" },
+          { "name": "FIN 748 - Financial and Economic Model Analysis", "credit": "3 credits" },
+          { "name": "IT 701 - Innovation, Risk, and Cybersecurity", "credit": "3 credits" },
+          { "name": "MGT 765 - High Performance Leadership", "credit": "3 credits" },
+          { "name": "MGT 709 - Sustainability and Ethical Business Practices", "credit": "3 credits" },
+          { "name": "MKT 743 - Marketing Strategy, Structures, and Systems", "credit": "3 credits" },
+          { "name": "MGT 722 - Managing Organizational Development and Change", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Residency Courses",
+        "items": [
+          { "name": "RSD 801 - Doctoral Residency I", "credit": "1 credit" },
+          { "name": "RSD 802 - Doctoral Residency II", "credit": "1 credit" },
+          { "name": "RSD 803 - Doctoral Residency III", "credit": "1 credit" }
+        ]
+      },
+      {
+        "title": "Dissertation",
+        "items": [
+          { "name": "DIS 796 - Dissertation I, Chapter 1", "credit": "3 credits" },
+          { "name": "DIS 797 - Dissertation II, Chapter 2", "credit": "3 credits" },
+          { "name": "DIS 798 - Dissertation III, Chapter 3", "credit": "3 credits" },
+          { "name": "DIS 799 - Dissertation IV, Chapter 4", "credit": "3 credits" },
+          { "name": "DIS 800 - Dissertation V, Chapter 5", "credit": "3 credits" }
+        ]
+      }
+    ]
+  },
+  "doctorate-in-business-dba": {
+    "source": "https://walshcollege.ae/DBA-Accounting",
+    "modules": [
+      {
+        "title": "Core & Research Courses",
+        "items": [
+          { "name": "DCT 700 - Doctoral Studies Seminar", "credit": "3 credits" },
+          { "name": "RES 711 - Research Methods: Introduction and Scope", "credit": "3 credits" },
+          { "name": "RES 712 - Qualitative and Exploratory Research Methods", "credit": "3 credits" },
+          { "name": "RES 713 - Quantitative Research Methods I: Data Management and Non-Experimental", "credit": "3 credits" },
+          { "name": "RES 714 - Quantitative Research Methods II: Experimental and Statistical", "credit": "3 credits" },
+          { "name": "DCT 701 - Comprehensive Examination for Doctorate", "credit": "0 credits" }
+        ]
+      },
+      {
+        "title": "Accounting Concentration",
+        "items": [
+          { "name": "ACC 732 - Accounting and Financial Reporting in the Global Economy", "credit": "3 credits" },
+          { "name": "ACC 733 - Financial Accounting Theory & Analysis", "credit": "3 credits" },
+          { "name": "ACC 734 - Seminar in Empirical Accounting Research", "credit": "3 credits" },
+          { "name": "ACC 735 - Applied Research in Accounting Topics", "credit": "3 credits" },
+          { "name": "BTC 701 - Organizational Resilience Framework", "credit": "3 credits" },
+          { "name": "ECN 724 - The Consequences of Economic Development for Business", "credit": "3 credits" },
+          { "name": "FIN 748 - Financial and Economic Model Analysis", "credit": "3 credits" },
+          { "name": "IT 701 - Innovation, Risk, and Cybersecurity", "credit": "3 credits" },
+          { "name": "MGT 765 - High Performance Leadership", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Residency Courses",
+        "items": [
+          { "name": "RSD 801 - Doctoral Residency I", "credit": "1 credit" },
+          { "name": "RSD 802 - Doctoral Residency II", "credit": "1 credit" },
+          { "name": "RSD 803 - Doctoral Residency III", "credit": "1 credit" }
+        ]
+      },
+      {
+        "title": "Dissertation",
+        "items": [
+          { "name": "DIS 796 - Dissertation I, Chapter 1", "credit": "3 credits" },
+          { "name": "DIS 797 - Dissertation II, Chapter 2", "credit": "3 credits" },
+          { "name": "DIS 798 - Dissertation III, Chapter 3", "credit": "3 credits" },
+          { "name": "DIS 799 - Dissertation IV, Chapter 4", "credit": "3 credits" },
+          { "name": "DIS 800 - Dissertation V, Chapter 5", "credit": "3 credits" }
+        ]
+      }
+    ]
+  },
+  "doctor-of-philosophy-in-cyber-security": {
+    "source": "https://walshcollege.ae/phd-CyberSecurity",
+    "modules": [
+      {
+        "title": "Core & Research Methods",
+        "items": [
+          { "name": "DCT 700 - Doctoral Studies Seminar", "credit": "3 credits" },
+          { "name": "BTC 701 - Organizational Resilience Framework", "credit": "3 credits" },
+          { "name": "BTC 770 - Navigating Conflict and Risk for Positive Leadership", "credit": "3 credits" },
+          { "name": "IT 701 - Innovation, Risk, and Cybersecurity", "credit": "3 credits" },
+          { "name": "IT 707 - Special Research Topics in Technology", "credit": "3 credits" },
+          { "name": "MGT 765 - High Performance Leadership", "credit": "3 credits" },
+          { "name": "RES 711 - Research Methods: Introduction and Scope", "credit": "3 credits" },
+          { "name": "RES 712 - Qualitative and Exploratory Research Methods", "credit": "3 credits" },
+          { "name": "RES 713 - Quantitative Research Methods I: Data Management and Non-Experimental", "credit": "3 credits" },
+          { "name": "RES 714 - Quantitative Research Methods II: Experimental and Statistical", "credit": "3 credits" },
+          { "name": "Introduction to Business Analytics", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Cyber Security Specialisation",
+        "items": [
+          { "name": "BTC 771 - Artificial Intelligence Strategy for Leaders", "credit": "3 credits" },
+          { "name": "BTC 773 - Game Theory and Problem Analysis for Effective Leaders", "credit": "3 credits" },
+          { "name": "IT 703 - Applied Research Topics I", "credit": "3 credits" },
+          { "name": "IT 704 - Applied Research Topics II", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Residency Courses",
+        "items": [
+          { "name": "RSD 801 - Doctoral Residency I", "credit": "1 credit" },
+          { "name": "RSD 802 - Doctoral Residency II", "credit": "1 credit" },
+          { "name": "RSD 803 - Doctoral Residency III", "credit": "1 credit" }
+        ]
+      },
+      {
+        "title": "Dissertation",
+        "items": [
+          { "name": "DIS 796 - Dissertation I, Chapter 1", "credit": "3 credits" },
+          { "name": "DIS 797 - Dissertation II, Chapter 2", "credit": "3 credits" },
+          { "name": "DIS 798 - Dissertation III, Chapter 3", "credit": "3 credits" },
+          { "name": "DIS 799 - Dissertation IV, Chapter 4", "credit": "3 credits" },
+          { "name": "DIS 800 - Dissertation V, Chapter 5", "credit": "3 credits" }
+        ]
+      }
+    ]
+  },
+  "doctor-of-philosophy-in-data-analytics": {
+    "source": "https://walshcollege.ae/phd-DataAnalytics",
+    "modules": [
+      {
+        "title": "Core & Research Methods",
+        "items": [
+          { "name": "DCT 700 - Doctoral Studies Seminar", "credit": "3 credits" },
+          { "name": "BTC 701 - Organizational Resilience Framework", "credit": "3 credits" },
+          { "name": "BTC 770 - Navigating Conflict and Risk for Positive Leadership", "credit": "3 credits" },
+          { "name": "IT 701 - Innovation, Risk, and Cybersecurity", "credit": "3 credits" },
+          { "name": "IT 707 - Special Research Topics in Technology", "credit": "3 credits" },
+          { "name": "MGT 765 - High Performance Leadership", "credit": "3 credits" },
+          { "name": "RES 711 - Research Methods: Introduction and Scope", "credit": "3 credits" },
+          { "name": "RES 712 - Qualitative and Exploratory Research Methods", "credit": "3 credits" },
+          { "name": "RES 713 - Quantitative Research Methods I: Data Management and Non-Experimental", "credit": "3 credits" },
+          { "name": "RES 714 - Quantitative Research Methods II: Experimental and Statistical", "credit": "3 credits" },
+          { "name": "Introduction to Business Analytics", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Data Analytics Specialisation",
+        "items": [
+          { "name": "IT 703 - Applied Research Topics I", "credit": "3 credits" },
+          { "name": "IT 704 - Applied Research Topics II", "credit": "3 credits" },
+          { "name": "IT 712 - Programming for Data Visualization & Predictive Modeling", "credit": "3 credits" },
+          { "name": "IT 722 - Advanced Topics in Data Storage & Mining", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Residency Courses",
+        "items": [
+          { "name": "RSD 801 - Doctoral Residency I", "credit": "1 credit" },
+          { "name": "RSD 802 - Doctoral Residency II", "credit": "1 credit" },
+          { "name": "RSD 803 - Doctoral Residency III", "credit": "1 credit" }
+        ]
+      },
+      {
+        "title": "Dissertation",
+        "items": [
+          { "name": "DIS 796 - Dissertation I, Chapter 1", "credit": "3 credits" },
+          { "name": "DIS 797 - Dissertation II, Chapter 2", "credit": "3 credits" },
+          { "name": "DIS 798 - Dissertation III, Chapter 3", "credit": "3 credits" },
+          { "name": "DIS 799 - Dissertation IV, Chapter 4", "credit": "3 credits" },
+          { "name": "DIS 800 - Dissertation V, Chapter 5", "credit": "3 credits" }
+        ]
+      }
+    ]
+  },
+  "phd-in-artificial-intelligence--machine-learning": {
+    "source": "https://walshcollege.ae/phd-AIandML",
+    "modules": [
+      {
+        "title": "Core & Research Methods",
+        "items": [
+          { "name": "DCT 700 - Doctoral Studies Seminar", "credit": "3 credits" },
+          { "name": "BTC 701 - Organizational Resilience Framework", "credit": "3 credits" },
+          { "name": "BTC 770 - Navigating Conflict and Risk for Positive Leadership", "credit": "3 credits" },
+          { "name": "IT 701 - Innovation, Risk, and Cybersecurity", "credit": "3 credits" },
+          { "name": "IT 707 - Special Research Topics in Technology", "credit": "3 credits" },
+          { "name": "MGT 765 - High Performance Leadership", "credit": "3 credits" },
+          { "name": "RES 711 - Research Methods: Introduction and Scope", "credit": "3 credits" },
+          { "name": "RES 712 - Qualitative and Exploratory Research Methods", "credit": "3 credits" },
+          { "name": "RES 713 - Quantitative Research Methods I: Data Management and Non-Experimental", "credit": "3 credits" },
+          { "name": "RES 714 - Quantitative Research Methods II: Experimental and Statistical", "credit": "3 credits" },
+          { "name": "Introduction to Business Analytics", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "AI & Machine Learning Specialisation",
+        "items": [
+          { "name": "IT 720 - Applied Research in Natural Language Processing", "credit": "3 credits" },
+          { "name": "IT 721 - Applied Research Topics in Deep Learning Theory & Practical Applications", "credit": "3 credits" },
+          { "name": "IT 722 - Advanced Topics in Data Storage & Mining", "credit": "3 credits" },
+          { "name": "IT 723 - Advanced Programming for Data Analysis", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Residency Courses",
+        "items": [
+          { "name": "RSD 801 - Doctoral Residency I", "credit": "1 credit" },
+          { "name": "RSD 802 - Doctoral Residency II", "credit": "1 credit" },
+          { "name": "RSD 803 - Doctoral Residency III", "credit": "1 credit" }
+        ]
+      },
+      {
+        "title": "Dissertation",
+        "items": [
+          { "name": "DIS 796 - Dissertation I, Chapter 1", "credit": "3 credits" },
+          { "name": "DIS 797 - Dissertation II, Chapter 2", "credit": "3 credits" },
+          { "name": "DIS 798 - Dissertation III, Chapter 3", "credit": "3 credits" },
+          { "name": "DIS 799 - Dissertation IV, Chapter 4", "credit": "3 credits" },
+          { "name": "DIS 800 - Dissertation V, Chapter 5", "credit": "3 credits" }
+        ]
+      }
+    ]
+  },
+  "phd-in-organizational-leadership": {
+    "source": "https://walshcollege.ae/phd-OrganizationalLeadership",
+    "modules": [
+      {
+        "title": "Core Courses",
+        "items": [
+          { "name": "DCT 700 - Doctoral Studies Seminar", "credit": "3 credits" },
+          { "name": "BTC 701 - Organizational Resilience Framework", "credit": "3 credits" },
+          { "name": "IT 701 - Innovation, Risk, and Cybersecurity", "credit": "3 credits" },
+          { "name": "MGT 709 - Sustainability and Ethical Business Practices", "credit": "3 credits" },
+          { "name": "MGT 722 - Managing Organizational Development and Change", "credit": "3 credits" },
+          { "name": "MGT 765 - High Performance Leadership", "credit": "3 credits" },
+          { "name": "BTC 770 - Navigating Conflict and Risk for Positive Leadership", "credit": "3 credits" },
+          { "name": "MGT 771 - Negotiation and Goal Attainment for Organizations", "credit": "3 credits" },
+          { "name": "BTC 771 - Artificial Intelligence Strategy for Leaders", "credit": "3 credits" },
+          { "name": "BTC 773 - Game Theory and Problem Analysis for Effective Leaders", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Research Methods Courses",
+        "items": [
+          { "name": "RES 711 - Research Methods: Introduction and Scope", "credit": "3 credits" },
+          { "name": "RES 712 - Qualitative and Exploratory Research Methods", "credit": "3 credits" },
+          { "name": "RES 713 - Quantitative Research Methods I: Data Management and Non-Experimental", "credit": "3 credits" },
+          { "name": "RES 714 - Quantitative Research Methods II: Experimental and Statistical", "credit": "3 credits" }
+        ]
+      },
+      {
+        "title": "Residency Courses",
+        "items": [
+          { "name": "RSD 801 - Doctoral Residency I", "credit": "1 credit" },
+          { "name": "RSD 802 - Doctoral Residency II", "credit": "1 credit" },
+          { "name": "RSD 803 - Doctoral Residency III", "credit": "1 credit" }
+        ]
+      },
+      {
+        "title": "Dissertation",
+        "items": [
+          { "name": "DIS 796 - Dissertation I, Chapter 1", "credit": "3 credits" },
+          { "name": "DIS 797 - Dissertation II, Chapter 2", "credit": "3 credits" },
+          { "name": "DIS 798 - Dissertation III, Chapter 3", "credit": "3 credits" },
+          { "name": "DIS 799 - Dissertation IV, Chapter 4", "credit": "3 credits" },
+          { "name": "DIS 800 - Dissertation V, Chapter 5", "credit": "3 credits" }
+        ]
+      }
+    ]
+  },
+  "mba-international-business-ppa": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-strategic-management-and-leadership/",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma Units",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 90 credits"
+      },
+      {
+        "title": "Specialist Modules",
+        "items": [
+          "International Business Strategy",
+          "Global Marketing Management",
+          "International Trade and Finance",
+          "Cross-Cultural Management",
+          "International Business Environment and Globalisation",
+          "Managing International Operations and Supply Chains"
+        ]
+      }
+    ]
+  },
+  "mba-human-resource-management-ppa": {
+    "source": "https://qualifi.net/level-7-diploma-in-human-resource-management/",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma Units",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 90 credits"
+      },
+      {
+        "title": "Specialist Modules",
+        "items": [
+          "Contemporary HRM",
+          "Leading, Managing and HR Development",
+          "Resourcing, Talent Management and Development",
+          "Performance Management",
+          "Employee Relations",
+          "Investigating a Business Issue from an HR Perspective"
+        ]
+      }
+    ]
+  },
+  "mba-supply-chain-management-ppa": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-logistics-and-supply-chain-crisis-management/",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma Units",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 90 credits"
+      },
+      {
+        "title": "Specialist Modules",
+        "items": [
+          "Critical Issues: Strategic Framework for Understanding Risk and Resilience Building",
+          "Engineering Systems Views of Supply Chain Resilience",
+          "Sector Specific Supply Chain Resilience Management",
+          "Ethical and Social Supply Chain Management",
+          "Critical Issues: Supply Chain Crime, Corruption and Terrorism",
+          "Critical Issues: Management of Supply Chains during Natural Disasters, Climate Change and Pandemics"
+        ]
+      }
+    ]
+  },
+  "mba-accounting-finance-ppa": {
+    "source": "https://qualifi.net/qualifi-level-7-diploma-in-accounting-and-finance/",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma Units",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 90 credits"
+      },
+      {
+        "title": "Specialist Modules",
+        "items": [
+          {
+            "name": "Strategy and Global Finance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Auditing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethical Behaviour and Corporate Governance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Corporate Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Analyst",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      }
+    ]
+  },
+  "bba-human-resource-management-ppa": {
+    "source": "https://qualifi.net/qualifi-level-5-diploma-in-business-management/",
+    "modules": [
+      {
+        "title": "Qualifi Diploma Units",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Specialist HR Modules",
+        "items": [
+          "Human Resource Management",
+          "Engaging the Workforce",
+          "Resourcing and Talent Planning",
+          "Managing Innovation",
+          "Organisation Management",
+          "Global Economics"
+        ]
+      }
+    ]
+  },
+  "bachelor-of-arts-in-accountancy-and-finance-eie-european-business-school": {
+    "source": "eie_Qualifi_Pathway_Modules.xlsx — BBA in Accounting & Finance",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Accounting and Finance",
+        "items": [
+          {
+            "name": "Accounting in a Business Context",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Economics for Business",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematical Accounting Methods",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Accounting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management Accounting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and Management in Accounting",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Accounting and Finance",
+        "items": [
+          {
+            "name": "Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Planning and Control",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Principles and Practices of Taxation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management of People",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethics and Corporate Responsibility in Business",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "eie Top-Up Modules",
+        "items": [
+          {
+            "name": "Research Methods",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Investment and Risk Management",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Audit and Assurance",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Business Research Projects",
+            "credit": "24 ECTS"
+          }
+        ],
+        "note": "Total: 60 ECTS"
+      }
+    ]
+  },
+  "bachelor-of-arts-in-business-managment---eie-european-business-school": {
+    "source": "eie_Qualifi_Pathway_Modules.xlsx — BBA in Business Administration",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "eie Top-Up Modules",
+        "items": [
+          {
+            "name": "Research Methods",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Business Economics",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Business Ethics & Corporate Social Responsibility",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Business Research Projects",
+            "credit": "24 ECTS"
+          }
+        ],
+        "note": "Total: 60 ECTS"
+      }
+    ]
+  },
+  "bachelors-of-arts-in-tourism-and-hospitality-management-eie-european-business-school": {
+    "source": "eie_Qualifi_Pathway_Modules.xlsx — BBA in Hospitality & Tourism",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Hospitality and Tourism Management",
+        "items": [
+          {
+            "name": "Sustainability in Tourism and Hospitality Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Operations Management in Tourism and Resort Operations",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Management of Visitor Attractions",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Employability and Development in the Hospitality Industry",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Hospitality and Tourism Management",
+        "items": [
+          {
+            "name": "Tourism Destination Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Entrepreneurship in Tourism and Hospitality Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Cultural Tourism Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Research Project",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "eie Top-Up Modules",
+        "items": [
+          {
+            "name": "Digital Marketing Management in Tourism & Hospitality Industry",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Technology in the Tourism and Hospitality Industry",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Tourism Policy and Planning",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Business Research Projects",
+            "credit": "24 ECTS"
+          }
+        ],
+        "note": "Total: 60 ECTS"
+      }
+    ]
+  },
+  "bba-business-management-eie": {
+    "source": "eie_Qualifi_Pathway_Modules.xlsx — BBA in Business Administration",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "eie Top-Up Modules",
+        "items": [
+          {
+            "name": "Research Methods",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Business Economics",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Business Ethics & Corporate Social Responsibility",
+            "credit": "12 ECTS"
+          },
+          {
+            "name": "Business Research Projects",
+            "credit": "24 ECTS"
+          }
+        ],
+        "note": "Total: 60 ECTS"
+      }
+    ]
+  },
+  "master-business-management-eie": {
+    "source": "eie_Qualifi_Pathway_Modules.xlsx — MBA",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Management and Leadership",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "eie Top-Up Modules",
+        "items": [
+          {
+            "name": "Research Methods",
+            "credit": "6 ECTS"
+          },
+          {
+            "name": "Dissertation",
+            "credit": "24 ECTS"
+          }
+        ],
+        "note": "Total: 30 ECTS"
+      }
+    ]
+  },
+  "master-hospitality-tourism-eie": {
+    "source": "eie_Qualifi_Pathway_Modules.xlsx — MBA in Hospitality & Tourism",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Hospitality and Tourism Management",
+        "items": [
+          {
+            "name": "Marketing Approaches in Hospitality and Tourism",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Strategic Planning Facets in Hospitality and Tourism",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Tourism Policy in International Context and Development",
+            "credit": "30 credits"
+          },
+          {
+            "name": "The Culture and Society in Tourism",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "eie Top-Up Modules",
+        "items": [
+          {
+            "name": "Research Methods",
+            "credit": "6 ECTS"
+          },
+          {
+            "name": "Dissertation",
+            "credit": "24 ECTS"
+          }
+        ],
+        "note": "Total: 30 ECTS"
+      }
+    ]
+  },
+  "mba-accounting-finance-eie": {
+    "source": "eie_Qualifi_Pathway_Modules.xlsx — MBA in Accounting & Finance",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Accounting and Finance",
+        "items": [
+          {
+            "name": "Strategy and Global Finance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Financial Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Auditing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Ethical Behaviour and Corporate Governance",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Corporate Reporting",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Analyst",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "eie Top-Up Modules",
+        "items": [
+          {
+            "name": "Research Methods",
+            "credit": "6 ECTS"
+          },
+          {
+            "name": "Dissertation",
+            "credit": "24 ECTS"
+          }
+        ],
+        "note": "Total: 30 ECTS"
+      }
+    ]
+  },
+  "master-of-business-administration-mba-eie-european-business-school": {
+    "source": "eie_Qualifi_Pathway_Modules.xlsx — MBA",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Management and Leadership",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "eie Top-Up Modules",
+        "items": [
+          {
+            "name": "Research Methods",
+            "credit": "6 ECTS"
+          },
+          {
+            "name": "Dissertation",
+            "credit": "24 ECTS"
+          }
+        ],
+        "note": "Total: 30 ECTS"
+      }
+    ]
+  },
+  "bba-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #1 (BBA General Business)",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "QM 202 - Statistical Methods for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Statistical Inference for Management Decisions",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MTH 300 - Business Algebra",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IDS 400 - Critical Thinking for Ethical Leaders",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 335 - Cybersecurity & Risk Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "COM 405 - Business Communication Strategies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 415 - Business Strategy of Organizational Resilience",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 418 - Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 420 - Process Maturity",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 457 - Global Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 465 - Supply Chain Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MKT 300 - Contemporary Marketing Trends",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 39 credits"
+      }
+    ]
+  },
+  "bba-marketing-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #1 (BBA General Business) — Business Management pathway",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "QM 202 - Statistical Methods for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Statistical Interference for Management Decisions",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MTH 300 - Business Algebra ***",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IDS 400 - Critical Thinking for Ethical Leaders ***",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 335 - Cybersecurity & Risk Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "COM 405 - Business Communication Strategies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 415 - Business Strategy of Organizational Resilience",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 418 - Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 420 - Process Maturity",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 457 - Global Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 465 - Supply Chain Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MKT 300 - Contemporary Marketing Trends",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 39 credits"
+      }
+    ]
+  },
+  "bba-international-business-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #1 (BBA General Business) — Business Management pathway",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "QM 202 - Statistical Methods for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Statistical Interference for Management Decisions",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MTH 300 - Business Algebra ***",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IDS 400 - Critical Thinking for Ethical Leaders ***",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 335 - Cybersecurity & Risk Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "COM 405 - Business Communication Strategies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 415 - Business Strategy of Organizational Resilience",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 418 - Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 420 - Process Maturity",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 457 - Global Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 465 - Supply Chain Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MKT 300 - Contemporary Marketing Trends",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 39 credits"
+      }
+    ]
+  },
+  "bba-finance-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #1 (BBA General Business) — Business Management pathway",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "QM 202 - Statistical Methods for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Statistical Interference for Management Decisions",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MTH 300 - Business Algebra ***",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IDS 400 - Critical Thinking for Ethical Leaders ***",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 335 - Cybersecurity & Risk Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "COM 405 - Business Communication Strategies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 415 - Business Strategy of Organizational Resilience",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 418 - Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 420 - Process Maturity",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 457 - Global Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 465 - Supply Chain Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MKT 300 - Contemporary Marketing Trends",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 39 credits"
+      }
+    ]
+  },
+  "bba-human-resource-management-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #1 (BBA General Business) — Business Management pathway",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Communications in Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Leadership and the Organisation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Financial Awareness",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Managing Change",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Operations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Developing Teams",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Business Management",
+        "items": [
+          {
+            "name": "Responding to the Changing Business Environment",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Effective Decision Making",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Development",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Business Models and Growing Organisations",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Customer Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Risk Management and Organisations",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "QM 202 - Statistical Methods for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Statistical Interference for Management Decisions",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MTH 300 - Business Algebra ***",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IDS 400 - Critical Thinking for Ethical Leaders ***",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 335 - Cybersecurity & Risk Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "COM 405 - Business Communication Strategies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 415 - Business Strategy of Organizational Resilience",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 418 - Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 420 - Process Maturity",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 457 - Global Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 465 - Supply Chain Management",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MKT 300 - Contemporary Marketing Trends",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 461 - Business Strategy and Policy (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 39 credits"
+      }
+    ]
+  },
+  "ms-management-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #8 (MS Management — Strategic Leadership)",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Management and Leadership",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MGT 606 - Communication Strategies for Contemporary Organizations",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 611 - Managing Firm Resources",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 604 - Leading Organizational Change",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 546 - Org As Complex Adapt Sys",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 548 - Mgt of Knowledge & Innovation",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 15 credits"
+      }
+    ]
+  },
+  "ms-marketing-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #9 (MS Marketing)",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Marketing",
+        "items": [
+          {
+            "name": "Contemporary Issues and Principles of Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Consumer Behaviour and Market Communications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Digital and Social Media Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Contemporary Challenges and Strategic Marketing",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Strategic Brand Management",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Marketing Research Project",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MSMKT - (course name not specified in PSD)",
+            "credit": "3 credits"
+          },
+          {
+            "name": "COM 510 - Leadership Communication",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 601 - Design Thinking",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 520 - Business Analytics",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MGT 600 - Leading a Resilient Workforce",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 12 credits"
+      }
+    ]
+  },
+  "ms-information-technology-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #14 (MS Information Technology)",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Information Technology",
+        "items": [
+          {
+            "name": "Computer Networks",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Data Analytics",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Database Management Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Management Information Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computers and Society",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computing Projects",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "IT 512 - Intel, Anlys Tools & Tech",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 538 - Cyber Physical Systems",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 565 - Cybersecurity for Leadership",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 533 - Programming I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 534 - Programming Ii",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 15 credits"
+      }
+    ]
+  },
+  "bsc-information-technology-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #3 (BSIT General IT)",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Information Technology",
+        "items": [
+          {
+            "name": "Information Technology and IT Ethics",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Mathematics and Statistics for IT",
+            "credit": "20 credits"
+          },
+          {
+            "name": "PC Maintenance and Operating Systems",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Computer Graphics Editing and Database Concepts",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Logical IT Networking",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Physical IT Networking",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Information Technology",
+        "items": [
+          {
+            "name": "Technopreneurship",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Network Security",
+            "credit": "20 credits"
+          },
+          {
+            "name": "C#.NET Programming",
+            "credit": "20 credits"
+          },
+          {
+            "name": "System Administration",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Network Routing and Switching",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Network Design and Administration",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "MGT 201 - Management I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ACC 201 - Principles of Accounting I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ECN 201 - Economics I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "COM 405 - Business Communication Strategies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IDS 400 - Critical Thinking for Ethical Leaders",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 403 - Project Management & ITIL Framework",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 408 - Database Design & Development",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 410 - Principles of Software Engineering",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 412 - Advanced Programming",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 419 - Ethical Hacking Strategies & Tools",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 422 - Advanced Team-based Attack/Defend Techniques",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 462 - Securing Cyber Physical Systems",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 499 - Collaborative Business Systems (Capstone)",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 39 credits"
+      }
+    ]
+  },
+  "bsc-cyber-security-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #4 (BSIT Cybersecurity)",
+    "modules": [
+      {
+        "title": "Qualifi Level 4 Diploma in Cyber Security",
+        "items": [
+          {
+            "name": "Cyber Security Threat and Risk",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Network Security and Data Communications",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Database Security and Computer Programming",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Incident Response, Investigations and Forensics",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Security Strategy: Laws, Policies and Implementation",
+            "credit": "20 credits"
+          },
+          {
+            "name": "Cyber Security Threats and Risk: Banking and Finance",
+            "credit": "20 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Qualifi Level 5 Diploma in Cyber Security",
+        "items": [
+          {
+            "name": "Cryptography",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Digital Investigations and Forensics",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Communications and Incident Management",
+            "credit": "30 credits"
+          },
+          {
+            "name": "Strategic Leadership",
+            "credit": "30 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "QM 202 - Statistical Methods for Business",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 301 - Statistical Inference for Management Decisions",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ECN 201 - Economics I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "COM 405 - Business Communication Strategies",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IDS 400 - Critical Thinking for Ethical Leaders",
+            "credit": "3 credits"
+          },
+          {
+            "name": "MTH 300 - Business Algebra",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 405 - Networks & Operating Systems",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 408 - Database Design & Development (SQL)",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 410 - Principles of Software Engineering",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 412 - Advanced Programming",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 417 - Fundamentals of Cyber Security",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 419 - Ethical Hacking Strategies & Tools",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 422 - Advanced Team-based Attack/Defend Techniques",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 39 credits"
+      }
+    ]
+  },
+  "mba-general-management-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #6 (MBA Organizational Resilience)",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Strategic Management and Leadership",
+        "items": [
+          {
+            "name": "Manage Team Performance to Support Strategy",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Information Management and Strategic Decision Taking",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Leading a Strategic Management Project",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Direction",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Planning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Development as a Strategic Manager",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Strategic Marketing",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Human Resource Planning",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "BTC 505 - Organizational Resilience Framework I",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 506 - Organizational Resilience Framework II",
+            "credit": "3 credits"
+          },
+          {
+            "name": "BTC 500 - Operations Management & Process Efficiency",
+            "credit": "3 credits"
+          },
+          {
+            "name": "FIN 500 - Principles of Finance",
+            "credit": "3 credits"
+          },
+          {
+            "name": "ECN 600 - Foundations of Economic Analysis",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 15 credits"
+      }
+    ]
+  },
+  "msc-artificial-intelligence-walsh-uecampus": {
+    "source": "Walsh_Qualifi_Pathway_Modules.xlsx — Program #15 (MS AI & Machine Learning)",
+    "modules": [
+      {
+        "title": "Qualifi Level 7 Diploma in Data Science",
+        "items": [
+          {
+            "name": "Exploratory Data Analysis",
+            "credit": "8 credits"
+          },
+          {
+            "name": "Statistical Inference",
+            "credit": "12 credits"
+          },
+          {
+            "name": "Fundamentals of Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Time Series Analysis",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Unsupervised Multivariate Methods",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Advanced Predictive Modelling",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Machine Learning",
+            "credit": "15 credits"
+          },
+          {
+            "name": "Contemporary Themes in Business Strategy",
+            "credit": "10 credits"
+          },
+          {
+            "name": "Further Topics in Data Science",
+            "credit": "15 credits"
+          }
+        ],
+        "note": "Total: 120 credits"
+      },
+      {
+        "title": "Walsh Top-up Units",
+        "items": [
+          {
+            "name": "IT 540 - Introduction to Data Science",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 544 - Data Visualization & Predictive Modeling",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 556 - Machine Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "QM 525 - Math of AI and Deep Learning",
+            "credit": "3 credits"
+          },
+          {
+            "name": "IT 599 - Capstone",
+            "credit": "3 credits"
+          }
+        ],
+        "note": "Total: 15 credits"
+      }
+    ]
+  }
+}

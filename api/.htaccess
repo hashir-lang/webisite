@@ -1,0 +1,22 @@
+# Backend hardening for /api.
+
+# Never serve the environment file or any dotfile.
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# Internal includes (prefixed with _) must not be requested directly.
+<FilesMatch "^_.*\.php$">
+    Require all denied
+</FilesMatch>
+
+# Make sure the Authorization: Bearer header reaches PHP (some Apache/FastCGI
+# setups strip it, which would break the admin token auth).
+<IfModule mod_setenvif.c>
+    SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+</IfModule>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>

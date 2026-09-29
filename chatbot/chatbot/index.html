@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UeCampus Chat Support</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Chat Toggle Button -->
+  <button id="chat-toggle" aria-label="Open chat">
+    <img id="chat-icon-open" src="https://www.uecampus.com/_next/image?url=%2Fassets%2Fuecampus-logo.png&w=256&q=75" alt="UeCampus" class="toggle-logo" />
+    <svg id="chat-icon-close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+      <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </button>
+
+  <!-- Chat Widget -->
+  <div id="chat-widget" class="hidden">
+    <div id="chat-header">
+      <div class="header-info">
+        <div class="header-avatar">
+          <img src="https://www.uecampus.com/_next/image?url=%2Fassets%2Fuecampus-logo.png&w=256&q=75" alt="UeCampus Logo" class="header-logo" />
+        </div>
+        <div>
+          <div class="header-title">UeCampus Support</div>
+          <div class="header-subtitle">We typically reply instantly</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="chat-messages">
+      <!-- Messages will be injected here -->
+    </div>
+
+    <div id="quick-questions" class="hidden">
+      <!-- Quick suggestion chips -->
+    </div>
+
+    <div id="chat-input-area">
+      <input type="text" id="chat-input" placeholder="Type your question..." autocomplete="off" />
+      <button id="chat-send" aria-label="Send message">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="faq-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
