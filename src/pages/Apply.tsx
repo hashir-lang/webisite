@@ -443,6 +443,77 @@ const Apply = () => {
           </form>
         </div>
       </section>
+
+      {/* TRUST STATEMENT */}
+      <section className="bg-aubergine py-10 md:py-12">
+        <div className="container-wide text-center">
+          <p className="font-serif text-[20px] md:text-[22px] text-white leading-relaxed">
+            Join over 5,000 students from 40+ countries who have started their online degree journey with UeCampus.
+          </p>
+        </div>
+      </section>
+
+      {/* WHAT HAPPENS NEXT */}
+      <section className="enquiry-process bg-paper py-16 md:py-20 border-b border-rule">
+        <div className="container-wide grid lg:grid-cols-12 gap-10">
+          <div className="lg:col-span-8 lg:col-start-3">
+            <h2 className="font-serif text-[32px] md:text-[38px] text-ink leading-tight mb-8">
+              What Happens After You Enquire?
+            </h2>
+            <ol className="space-y-6">
+              <li className="flex gap-5 items-start">
+                <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-plum text-white text-[13px] font-mono">01</span>
+                <p className="text-[16px] leading-relaxed text-ink-soft pt-1">
+                  <strong className="text-ink font-medium">Within 24 hours:</strong> A dedicated UeCampus advisor will contact you via email or phone.
+                </p>
+              </li>
+              <li className="flex gap-5 items-start">
+                <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-plum text-white text-[13px] font-mono">02</span>
+                <p className="text-[16px] leading-relaxed text-ink-soft pt-1">
+                  <strong className="text-ink font-medium">Programme Matching:</strong> Your advisor will recommend the best-fit programme based on your goals and qualifications.
+                </p>
+              </li>
+              <li className="flex gap-5 items-start">
+                <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-plum text-white text-[13px] font-mono">03</span>
+                <p className="text-[16px] leading-relaxed text-ink-soft pt-1">
+                  <strong className="text-ink font-medium">Fee &amp; Scholarship Review:</strong> Receive a personalised breakdown of tuition fees and available scholarships.
+                </p>
+              </li>
+              <li className="flex gap-5 items-start">
+                <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-plum text-white text-[13px] font-mono">04</span>
+                <p className="text-[16px] leading-relaxed text-ink-soft pt-1">
+                  <strong className="text-ink font-medium">Enrolment Support:</strong> Step-by-step guidance through the application and enrolment process.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="enquiry-faq bg-paper py-16 md:py-20">
+        <div className="container-wide grid lg:grid-cols-12 gap-10">
+          <div className="lg:col-span-8 lg:col-start-3">
+            <h2 className="font-serif text-[32px] md:text-[38px] text-ink leading-tight mb-10">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-8 divide-y divide-rule">
+              <div className="pt-8 first:pt-0">
+                <h3 className="font-serif text-[20px] text-ink mb-3">How long does it take to get a response?</h3>
+                <p className="text-[15px] leading-relaxed text-ink-soft">All enquiries receive a response within 24 hours on business days.</p>
+              </div>
+              <div className="pt-8">
+                <h3 className="font-serif text-[20px] text-ink mb-3">What information do I need to provide?</h3>
+                <p className="text-[15px] leading-relaxed text-ink-soft">Simply share your name, contact details, and the programme you&#39;re interested in. No documents are required at this stage.</p>
+              </div>
+              <div className="pt-8">
+                <h3 className="font-serif text-[20px] text-ink mb-3">Is there a cost to enquire?</h3>
+                <p className="text-[15px] leading-relaxed text-ink-soft">Enquiring is completely free and places no obligation on you to enrol.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </PageLayout>
   );
 };
