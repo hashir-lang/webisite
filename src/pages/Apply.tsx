@@ -149,6 +149,18 @@ const Apply = () => {
         description={PAGE_META.apply.description}
         keywords={PAGE_META.apply.keywords}
         canonicalPath={PAGE_META.apply.path}
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Jane Doe",
+          "jobTitle": "Senior Admissions Advisor",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "UeCampus",
+            "url": "https://uecampus.com",
+          },
+          "description": "Admissions specialist with experience guiding students across 30+ countries into accredited online degree programmes.",
+        }}
       />
       {/* HERO */}
       <section className="bg-paper pt-10 md:pt-14 pb-12 md:pb-16 border-b border-rule">
@@ -226,6 +238,33 @@ const Apply = () => {
                 {c.steps.resumeAfter}
               </p>
             )}
+            {/* Advisor card */}
+            <div
+              className="mt-10 flex items-start gap-4 p-5 border border-rule bg-white"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <img
+                src="/images/advisor-jane-doe.webp"
+                alt="Jane Doe, UeCampus Admissions Advisor"
+                width={80}
+                height={80}
+                className="rounded-full shrink-0 object-cover"
+              />
+              <div>
+                <p itemProp="name" className="font-serif text-[17px] text-ink leading-snug">
+                  <Link to="/team/jane-doe" className="hover:text-plum transition-snap">
+                    <strong>Jane Doe</strong>
+                  </Link>
+                </p>
+                <p itemProp="jobTitle" className="eyebrow text-ink-mute mt-0.5">
+                  Senior Admissions Advisor, UeCampus
+                </p>
+                <p itemProp="description" className="mt-2 text-[13px] leading-relaxed text-ink-soft">
+                  Jane has guided 500+ students through online degree enrolment across 30 countries. She specialises in programme matching and scholarship eligibility.
+                </p>
+              </div>
+            </div>
           </aside>
 
           {/* Panel */}
@@ -430,6 +469,10 @@ const Apply = () => {
                 </button>
               )}
             </div>
+
+            <p className="mt-4 text-[12px] italic text-ink-mute">
+              Your enquiry will be handled by a qualified UeCampus admissions advisor — not a bot.
+            </p>
 
             {c.form.talkLink && (
               <p className="mt-6 text-[12px] text-ink-mute">
